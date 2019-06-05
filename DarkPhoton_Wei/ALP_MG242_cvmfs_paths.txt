@@ -1,0 +1,38 @@
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_0p5/v1/ALP_MH_125_MALP_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_0p6/v1/ALP_MH_125_MALP_0p6_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_0p7/v1/ALP_MH_125_MALP_0p7_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_0p8/v1/ALP_MH_125_MALP_0p8_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_0p9/v1/ALP_MH_125_MALP_0p9_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_10/v1/ALP_MH_125_MALP_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_15/v1/ALP_MH_125_MALP_15_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_1/v1/ALP_MH_125_MALP_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_20/v1/ALP_MH_125_MALP_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_25/v1/ALP_MH_125_MALP_25_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_2/v1/ALP_MH_125_MALP_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_30/v1/ALP_MH_125_MALP_30_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_3/v1/ALP_MH_125_MALP_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_4/v1/ALP_MH_125_MALP_4_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_5/v1/ALP_MH_125_MALP_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_6/v1/ALP_MH_125_MALP_6_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_7/v1/ALP_MH_125_MALP_7_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_8/v1/ALP_MH_125_MALP_8_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/ALP_MH_125_MALP_9/v1/ALP_MH_125_MALP_9_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------

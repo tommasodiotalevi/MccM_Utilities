@@ -1,0 +1,490 @@
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_0p05/v1/MSSMD_Mneu1_10_MAD_0p25_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_0p1/v1/MSSMD_Mneu1_10_MAD_0p25_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_0p2/v1/MSSMD_Mneu1_10_MAD_0p25_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_0p5/v1/MSSMD_Mneu1_10_MAD_0p25_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_0/v1/MSSMD_Mneu1_10_MAD_0p25_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_100/v1/MSSMD_Mneu1_10_MAD_0p25_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_10/v1/MSSMD_Mneu1_10_MAD_0p25_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_1/v1/MSSMD_Mneu1_10_MAD_0p25_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_20/v1/MSSMD_Mneu1_10_MAD_0p25_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_2/v1/MSSMD_Mneu1_10_MAD_0p25_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_3/v1/MSSMD_Mneu1_10_MAD_0p25_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_50/v1/MSSMD_Mneu1_10_MAD_0p25_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p25_cT_5/v1/MSSMD_Mneu1_10_MAD_0p25_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_0p05/v1/MSSMD_Mneu1_10_MAD_0p4_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_0p1/v1/MSSMD_Mneu1_10_MAD_0p4_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_0p2/v1/MSSMD_Mneu1_10_MAD_0p4_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_0p5/v1/MSSMD_Mneu1_10_MAD_0p4_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_0/v1/MSSMD_Mneu1_10_MAD_0p4_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_100/v1/MSSMD_Mneu1_10_MAD_0p4_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_10/v1/MSSMD_Mneu1_10_MAD_0p4_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_1/v1/MSSMD_Mneu1_10_MAD_0p4_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_20/v1/MSSMD_Mneu1_10_MAD_0p4_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_2/v1/MSSMD_Mneu1_10_MAD_0p4_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_3/v1/MSSMD_Mneu1_10_MAD_0p4_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_50/v1/MSSMD_Mneu1_10_MAD_0p4_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p4_cT_5/v1/MSSMD_Mneu1_10_MAD_0p4_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_0p05/v1/MSSMD_Mneu1_10_MAD_0p7_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_0p1/v1/MSSMD_Mneu1_10_MAD_0p7_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_0p2/v1/MSSMD_Mneu1_10_MAD_0p7_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_0p5/v1/MSSMD_Mneu1_10_MAD_0p7_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_0/v1/MSSMD_Mneu1_10_MAD_0p7_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_100/v1/MSSMD_Mneu1_10_MAD_0p7_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_10/v1/MSSMD_Mneu1_10_MAD_0p7_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_1/v1/MSSMD_Mneu1_10_MAD_0p7_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_20/v1/MSSMD_Mneu1_10_MAD_0p7_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_2/v1/MSSMD_Mneu1_10_MAD_0p7_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_3/v1/MSSMD_Mneu1_10_MAD_0p7_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_50/v1/MSSMD_Mneu1_10_MAD_0p7_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_0p7_cT_5/v1/MSSMD_Mneu1_10_MAD_0p7_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_0p05/v1/MSSMD_Mneu1_10_MAD_1_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_0p1/v1/MSSMD_Mneu1_10_MAD_1_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_0p2/v1/MSSMD_Mneu1_10_MAD_1_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_0p5/v1/MSSMD_Mneu1_10_MAD_1_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_0/v1/MSSMD_Mneu1_10_MAD_1_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_100/v1/MSSMD_Mneu1_10_MAD_1_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_10/v1/MSSMD_Mneu1_10_MAD_1_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_1/v1/MSSMD_Mneu1_10_MAD_1_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_20/v1/MSSMD_Mneu1_10_MAD_1_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_2/v1/MSSMD_Mneu1_10_MAD_1_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_3/v1/MSSMD_Mneu1_10_MAD_1_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_50/v1/MSSMD_Mneu1_10_MAD_1_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_1_cT_5/v1/MSSMD_Mneu1_10_MAD_1_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_0p05/v1/MSSMD_Mneu1_10_MAD_2_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_0p1/v1/MSSMD_Mneu1_10_MAD_2_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_0p2/v1/MSSMD_Mneu1_10_MAD_2_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_0p5/v1/MSSMD_Mneu1_10_MAD_2_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_0/v1/MSSMD_Mneu1_10_MAD_2_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_100/v1/MSSMD_Mneu1_10_MAD_2_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_10/v1/MSSMD_Mneu1_10_MAD_2_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_1/v1/MSSMD_Mneu1_10_MAD_2_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_20/v1/MSSMD_Mneu1_10_MAD_2_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_2/v1/MSSMD_Mneu1_10_MAD_2_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_3/v1/MSSMD_Mneu1_10_MAD_2_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_50/v1/MSSMD_Mneu1_10_MAD_2_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_2_cT_5/v1/MSSMD_Mneu1_10_MAD_2_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_0p05/v1/MSSMD_Mneu1_10_MAD_5_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_0p1/v1/MSSMD_Mneu1_10_MAD_5_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_0p2/v1/MSSMD_Mneu1_10_MAD_5_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_0p5/v1/MSSMD_Mneu1_10_MAD_5_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_0/v1/MSSMD_Mneu1_10_MAD_5_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_100/v1/MSSMD_Mneu1_10_MAD_5_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_10/v1/MSSMD_Mneu1_10_MAD_5_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_1/v1/MSSMD_Mneu1_10_MAD_5_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_20/v1/MSSMD_Mneu1_10_MAD_5_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_2/v1/MSSMD_Mneu1_10_MAD_5_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_3/v1/MSSMD_Mneu1_10_MAD_5_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_50/v1/MSSMD_Mneu1_10_MAD_5_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_5_cT_5/v1/MSSMD_Mneu1_10_MAD_5_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_0p05/v1/MSSMD_Mneu1_10_MAD_8p5_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_0p1/v1/MSSMD_Mneu1_10_MAD_8p5_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_0p2/v1/MSSMD_Mneu1_10_MAD_8p5_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_0p5/v1/MSSMD_Mneu1_10_MAD_8p5_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_0/v1/MSSMD_Mneu1_10_MAD_8p5_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_100/v1/MSSMD_Mneu1_10_MAD_8p5_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_10/v1/MSSMD_Mneu1_10_MAD_8p5_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_1/v1/MSSMD_Mneu1_10_MAD_8p5_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_20/v1/MSSMD_Mneu1_10_MAD_8p5_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_2/v1/MSSMD_Mneu1_10_MAD_8p5_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_3/v1/MSSMD_Mneu1_10_MAD_8p5_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_50/v1/MSSMD_Mneu1_10_MAD_8p5_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_10_MAD_8p5_cT_5/v1/MSSMD_Mneu1_10_MAD_8p5_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_0p05/v1/MSSMD_Mneu1_60_MAD_0p25_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_0p1/v1/MSSMD_Mneu1_60_MAD_0p25_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_0p2/v1/MSSMD_Mneu1_60_MAD_0p25_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_0p5/v1/MSSMD_Mneu1_60_MAD_0p25_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_0/v1/MSSMD_Mneu1_60_MAD_0p25_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_100/v1/MSSMD_Mneu1_60_MAD_0p25_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_10/v1/MSSMD_Mneu1_60_MAD_0p25_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_1/v1/MSSMD_Mneu1_60_MAD_0p25_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_20/v1/MSSMD_Mneu1_60_MAD_0p25_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_2/v1/MSSMD_Mneu1_60_MAD_0p25_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_3/v1/MSSMD_Mneu1_60_MAD_0p25_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_50/v1/MSSMD_Mneu1_60_MAD_0p25_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p25_cT_5/v1/MSSMD_Mneu1_60_MAD_0p25_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_0p05/v1/MSSMD_Mneu1_60_MAD_0p4_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_0p1/v1/MSSMD_Mneu1_60_MAD_0p4_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_0p2/v1/MSSMD_Mneu1_60_MAD_0p4_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_0p5/v1/MSSMD_Mneu1_60_MAD_0p4_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_0/v1/MSSMD_Mneu1_60_MAD_0p4_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_100/v1/MSSMD_Mneu1_60_MAD_0p4_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_10/v1/MSSMD_Mneu1_60_MAD_0p4_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_1/v1/MSSMD_Mneu1_60_MAD_0p4_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_20/v1/MSSMD_Mneu1_60_MAD_0p4_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_2/v1/MSSMD_Mneu1_60_MAD_0p4_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_3/v1/MSSMD_Mneu1_60_MAD_0p4_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_50/v1/MSSMD_Mneu1_60_MAD_0p4_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p4_cT_5/v1/MSSMD_Mneu1_60_MAD_0p4_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_0p05/v1/MSSMD_Mneu1_60_MAD_0p7_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_0p1/v1/MSSMD_Mneu1_60_MAD_0p7_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_0p2/v1/MSSMD_Mneu1_60_MAD_0p7_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_0p5/v1/MSSMD_Mneu1_60_MAD_0p7_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_0/v1/MSSMD_Mneu1_60_MAD_0p7_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_10/v1/MSSMD_Mneu1_60_MAD_0p7_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_1/v1/MSSMD_Mneu1_60_MAD_0p7_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_20/v1/MSSMD_Mneu1_60_MAD_0p7_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_2/v1/MSSMD_Mneu1_60_MAD_0p7_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_3/v1/MSSMD_Mneu1_60_MAD_0p7_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_50/v1/MSSMD_Mneu1_60_MAD_0p7_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_0p7_cT_5/v1/MSSMD_Mneu1_60_MAD_0p7_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_0p05/v1/MSSMD_Mneu1_60_MAD_10_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_0p1/v1/MSSMD_Mneu1_60_MAD_10_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_0p2/v1/MSSMD_Mneu1_60_MAD_10_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_0p5/v1/MSSMD_Mneu1_60_MAD_10_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_0/v1/MSSMD_Mneu1_60_MAD_10_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_100/v1/MSSMD_Mneu1_60_MAD_10_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_10/v1/MSSMD_Mneu1_60_MAD_10_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_1/v1/MSSMD_Mneu1_60_MAD_10_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_20/v1/MSSMD_Mneu1_60_MAD_10_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_2/v1/MSSMD_Mneu1_60_MAD_10_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_3/v1/MSSMD_Mneu1_60_MAD_10_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_50/v1/MSSMD_Mneu1_60_MAD_10_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_10_cT_5/v1/MSSMD_Mneu1_60_MAD_10_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_0p05/v1/MSSMD_Mneu1_60_MAD_15_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_0p1/v1/MSSMD_Mneu1_60_MAD_15_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_0p2/v1/MSSMD_Mneu1_60_MAD_15_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_0p5/v1/MSSMD_Mneu1_60_MAD_15_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_0/v1/MSSMD_Mneu1_60_MAD_15_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_10/v1/MSSMD_Mneu1_60_MAD_15_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_1/v1/MSSMD_Mneu1_60_MAD_15_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_20/v1/MSSMD_Mneu1_60_MAD_15_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_2/v1/MSSMD_Mneu1_60_MAD_15_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_3/v1/MSSMD_Mneu1_60_MAD_15_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_50/v1/MSSMD_Mneu1_60_MAD_15_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_15_cT_5/v1/MSSMD_Mneu1_60_MAD_15_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_0p05/v1/MSSMD_Mneu1_60_MAD_1_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_0p1/v1/MSSMD_Mneu1_60_MAD_1_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_0p2/v1/MSSMD_Mneu1_60_MAD_1_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_0p5/v1/MSSMD_Mneu1_60_MAD_1_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_0/v1/MSSMD_Mneu1_60_MAD_1_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_100/v1/MSSMD_Mneu1_60_MAD_1_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_10/v1/MSSMD_Mneu1_60_MAD_1_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_1/v1/MSSMD_Mneu1_60_MAD_1_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_20/v1/MSSMD_Mneu1_60_MAD_1_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_2/v1/MSSMD_Mneu1_60_MAD_1_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_3/v1/MSSMD_Mneu1_60_MAD_1_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_50/v1/MSSMD_Mneu1_60_MAD_1_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_1_cT_5/v1/MSSMD_Mneu1_60_MAD_1_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_0p05/v1/MSSMD_Mneu1_60_MAD_25_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_0p1/v1/MSSMD_Mneu1_60_MAD_25_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_0p2/v1/MSSMD_Mneu1_60_MAD_25_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_0p5/v1/MSSMD_Mneu1_60_MAD_25_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_0/v1/MSSMD_Mneu1_60_MAD_25_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_100/v1/MSSMD_Mneu1_60_MAD_25_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_10/v1/MSSMD_Mneu1_60_MAD_25_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_1/v1/MSSMD_Mneu1_60_MAD_25_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_20/v1/MSSMD_Mneu1_60_MAD_25_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_2/v1/MSSMD_Mneu1_60_MAD_25_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_3/v1/MSSMD_Mneu1_60_MAD_25_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_50/v1/MSSMD_Mneu1_60_MAD_25_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_25_cT_5/v1/MSSMD_Mneu1_60_MAD_25_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_0p05/v1/MSSMD_Mneu1_60_MAD_2_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_0p1/v1/MSSMD_Mneu1_60_MAD_2_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_0p2/v1/MSSMD_Mneu1_60_MAD_2_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_0p5/v1/MSSMD_Mneu1_60_MAD_2_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_0/v1/MSSMD_Mneu1_60_MAD_2_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_100/v1/MSSMD_Mneu1_60_MAD_2_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_10/v1/MSSMD_Mneu1_60_MAD_2_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_1/v1/MSSMD_Mneu1_60_MAD_2_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_20/v1/MSSMD_Mneu1_60_MAD_2_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_2/v1/MSSMD_Mneu1_60_MAD_2_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_3/v1/MSSMD_Mneu1_60_MAD_2_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_50/v1/MSSMD_Mneu1_60_MAD_2_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_2_cT_5/v1/MSSMD_Mneu1_60_MAD_2_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_0p05/v1/MSSMD_Mneu1_60_MAD_35_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_0p1/v1/MSSMD_Mneu1_60_MAD_35_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_0p2/v1/MSSMD_Mneu1_60_MAD_35_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_0p5/v1/MSSMD_Mneu1_60_MAD_35_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_0/v1/MSSMD_Mneu1_60_MAD_35_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_100/v1/MSSMD_Mneu1_60_MAD_35_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_10/v1/MSSMD_Mneu1_60_MAD_35_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_1/v1/MSSMD_Mneu1_60_MAD_35_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_20/v1/MSSMD_Mneu1_60_MAD_35_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_2/v1/MSSMD_Mneu1_60_MAD_35_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_3/v1/MSSMD_Mneu1_60_MAD_35_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_50/v1/MSSMD_Mneu1_60_MAD_35_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_35_cT_5/v1/MSSMD_Mneu1_60_MAD_35_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_0p05/v1/MSSMD_Mneu1_60_MAD_58_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_0p1/v1/MSSMD_Mneu1_60_MAD_58_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_0p2/v1/MSSMD_Mneu1_60_MAD_58_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_0p5/v1/MSSMD_Mneu1_60_MAD_58_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_0/v1/MSSMD_Mneu1_60_MAD_58_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_100/v1/MSSMD_Mneu1_60_MAD_58_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_10/v1/MSSMD_Mneu1_60_MAD_58_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_1/v1/MSSMD_Mneu1_60_MAD_58_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_20/v1/MSSMD_Mneu1_60_MAD_58_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_2/v1/MSSMD_Mneu1_60_MAD_58_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_3/v1/MSSMD_Mneu1_60_MAD_58_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_50/v1/MSSMD_Mneu1_60_MAD_58_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_58_cT_5/v1/MSSMD_Mneu1_60_MAD_58_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_0p05/v1/MSSMD_Mneu1_60_MAD_5_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_0p1/v1/MSSMD_Mneu1_60_MAD_5_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_0p2/v1/MSSMD_Mneu1_60_MAD_5_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_0p5/v1/MSSMD_Mneu1_60_MAD_5_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_0/v1/MSSMD_Mneu1_60_MAD_5_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_100/v1/MSSMD_Mneu1_60_MAD_5_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_10/v1/MSSMD_Mneu1_60_MAD_5_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_1/v1/MSSMD_Mneu1_60_MAD_5_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_20/v1/MSSMD_Mneu1_60_MAD_5_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_2/v1/MSSMD_Mneu1_60_MAD_5_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_3/v1/MSSMD_Mneu1_60_MAD_5_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_50/v1/MSSMD_Mneu1_60_MAD_5_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_5_cT_5/v1/MSSMD_Mneu1_60_MAD_5_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_0p05/v1/MSSMD_Mneu1_60_MAD_8p5_cT_0p05_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_0p1/v1/MSSMD_Mneu1_60_MAD_8p5_cT_0p1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_0p2/v1/MSSMD_Mneu1_60_MAD_8p5_cT_0p2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_0p5/v1/MSSMD_Mneu1_60_MAD_8p5_cT_0p5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_0/v1/MSSMD_Mneu1_60_MAD_8p5_cT_0_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_100/v1/MSSMD_Mneu1_60_MAD_8p5_cT_100_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_10/v1/MSSMD_Mneu1_60_MAD_8p5_cT_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_1/v1/MSSMD_Mneu1_60_MAD_8p5_cT_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_20/v1/MSSMD_Mneu1_60_MAD_8p5_cT_20_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_2/v1/MSSMD_Mneu1_60_MAD_8p5_cT_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_3/v1/MSSMD_Mneu1_60_MAD_8p5_cT_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_50/v1/MSSMD_Mneu1_60_MAD_8p5_cT_50_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
+gridpack_cvmfs_path:   /cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/MSSMD_Mneu1_60_MAD_8p5_cT_5/v1/MSSMD_Mneu1_60_MAD_8p5_cT_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz
+------------------------------------
