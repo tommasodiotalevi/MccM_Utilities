@@ -1,0 +1,609 @@
+Dataset name,Events,fragment,notes,Generator
+SUSYWHToAA_AATo4B_M-12_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M12/v1/Wh01_M125_Toa01a01_Tobbbb_M12_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-12 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-15_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M15/v1/Wh01_M125_Toa01a01_Tobbbb_M15_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-15 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-20_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M20/v1/Wh01_M125_Toa01a01_Tobbbb_M20_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-20 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-25_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M25/v1/Wh01_M125_Toa01a01_Tobbbb_M25_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-25 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-30_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M30/v1/Wh01_M125_Toa01a01_Tobbbb_M30_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-30 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-40_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M40/v1/Wh01_M125_Toa01a01_Tobbbb_M40_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-40 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-50_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M50/v1/Wh01_M125_Toa01a01_Tobbbb_M50_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-50 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
+SUSYWHToAA_AATo4B_M-60_TuneCP5_PSweights_13TeV-madgraph_pythia8,1000000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/Wh01_M125_Toa01a01_Tobbbb_M60/v1/Wh01_M125_Toa01a01_Tobbbb_M60_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        processParameters = cms.vstring(
+                                        #PSweights
+        'UncertaintyBands:doVariations = on',
+# 3 sets of variations for ISR&FSR up/down
+# Reduced sqrt(2)/(1/sqrt(2)), Default 2/0.5 and Conservative 4/0.25 variations
+        'UncertaintyBands:List = {isrRedHi isr:muRfac=0.707,fsrRedHi fsr:muRfac=0.707,isrRedLo isr:muRfac=1.414,fsrRedLo fsr:muRfac=1.414,isrDefHi isr:muRfac=0.5, fsrDefHi fsr:muRfac=0.5,isrDefLo isr:muRfac=2.0,fsrDefLo fsr:muRfac=2.0,isrConHi isr:muRfac=0.25, fsrConHi fsr:muRfac=0.25,isrConLo isr:muRfac=4.0,fsrConLo fsr:muRfac=4.0}',
+ 
+        'UncertaintyBands:MPIshowers = on',
+        'UncertaintyBands:overSampleFSR = 10.0',
+        'UncertaintyBands:overSampleISR = 10.0',
+        'UncertaintyBands:FSRpTmin2Fac = 20',
+        'UncertaintyBands:ISRpTmin2Fac = 1'
+                                        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'processParameters'
+                                    )
+        )
+)
+
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Wh01_M125_Toa01a01_Tobbbb_M12to60_LO_MLM
+
+genParticlesForFilter = cms.EDProducer(""GenParticleProducer"",
+  saveBarCodes = cms.untracked.bool(True),
+  src = cms.InputTag(""generator"",""unsmeared""),
+  abortOnUnknownPDGCode = cms.untracked.bool(False)
+)
+
+genSelectorLep = cms.EDFilter(""GenParticleSelector"",
+  filter = cms.bool(True),
+  src = cms.InputTag('genParticlesForFilter'),
+  cut = cms.string('(abs(pdgId()) == 11 || abs(pdgId()) == 13 )')
+)
+
+bestLeps = cms.EDFilter(""EtaPtMinCandViewSelector"",
+    src = cms.InputTag('genSelectorLep'),
+    filter = cms.bool(True),				
+    ptMin   = cms.double(10),
+    etaMin = cms.double(-2.5),
+    etaMax = cms.double(2.5)
+)
+
+selectedOneLepCandFilter = cms.EDFilter(""CandViewCountFilter"", 
+   src = cms.InputTag('bestLeps'), 
+   filter = cms.bool(True), 
+   minNumber = cms.uint32(1) 
+)               
+
+ProductionFilterSequence = cms.Sequence(generator * (genParticlesForFilter + genSelectorLep + bestLeps + selectedOneLepCandFilter))
+",SUSYWHToAA AATo4B M-60 TuneCP5 PSweights 13TeV-madgraph pythia8,Madgraph_V5_2.6.0 Pythia8
