@@ -313,6 +313,59 @@ decay_HHTo2BLNu2J = """'POWHEG:nFinal = 2',   # Number of final state particles 
 HHTo2BLNu2J_dict = fragmentsDictCreator(decay_HHTo2BLNu2J)
 
 
+HHTo2Tau2ZTo4L = """'POWHEG:nFinal = 2',
+            '23:mMin = 0.05',
+            '23:onMode = off',
+            '23:onIfAny = 11 13 15', # only leptonic Z decays
+            '25:m0 = 125.0',
+            '25:onMode = off',
+            '25:onIfMatch = 15 -15',
+            '25:onIfMatch = 23 23',
+            'ResonanceDecayFilter:filter = on',
+            'ResonanceDecayFilter:exclusive = on', #off: require at least the specified number of daughters, on: require exactly the specified number of daughters
+            'ResonanceDecayFilter:eMuAsEquivalent = off', #on: treat electrons and muons as equivalent
+            'ResonanceDecayFilter:eMuTauAsEquivalent = on', #on: treat electrons, muons , and taus as equivalent
+            'ResonanceDecayFilter:allNuAsEquivalent = off', #on: treat all three neutrino flavours as equivalent
+            'ResonanceDecayFilter:mothers = 25,23', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
+            'ResonanceDecayFilter:daughters = 15,15,11,11,11,11',"""
+
+HHTo2Tau2ZTo4L_dict = fragmentsDictCreator(HHTo2Tau2ZTo4L)
+
+HHTo2G2ZTo4L = """'POWHEG:nFinal = 2',
+       '23:mMin = 0.05',
+       '23:onMode = off',
+       '23:onIfAny = 11 13 15', # only leptonic Z decays
+       '25:m0 = 125.0',
+       '25:onMode = off',
+       '25:onIfMatch = 22 22',
+       '25:onIfMatch = 23 23',
+       'ResonanceDecayFilter:filter = on',
+       'ResonanceDecayFilter:exclusive = on', #off: require at least the specified number of daughters, on: require exactly the specified number of daughters
+       'ResonanceDecayFilter:eMuAsEquivalent = off', #on: treat electrons and muons as equivalent
+       'ResonanceDecayFilter:eMuTauAsEquivalent = on', #on: treat electrons, muons , and taus as equivalent
+       'ResonanceDecayFilter:allNuAsEquivalent = off', #on: treat all three neutrino flavours as equivalent
+       'ResonanceDecayFilter:mothers = 25,23', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
+       'ResonanceDecayFilter:daughters = 22,22,11,11,11,11',"""
+
+HHTo2G2ZTo4L_dict = fragmentsDictCreator(HHTo2G2ZTo4L)
+
+HHTo2W2ZTo4L = """'POWHEG:nFinal = 2',
+            '23:mMin = 0.05',
+            '23:onMode = off',
+            '23:onIfAny = 11 13 15', # only leptonic Z decays
+            '25:m0 = 125.0',
+            '25:onMode = off',
+            '25:onIfMatch = 24 24',
+            '25:onIfMatch = 23 23',
+            'ResonanceDecayFilter:filter = on',
+            'ResonanceDecayFilter:exclusive = off', #off: require at least the specified number of daughters, on: require exactly the specified number of daughters
+            'ResonanceDecayFilter:eMuAsEquivalent = off', #on: treat electrons and muons as equivalent
+            'ResonanceDecayFilter:eMuTauAsEquivalent = on', #on: treat electrons, muons , and taus as equivalent
+            'ResonanceDecayFilter:allNuAsEquivalent = off', #on: treat all three neutrino flavours as equivalent
+            'ResonanceDecayFilter:mothers = 23,24', # list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
+            'ResonanceDecayFilter:daughters = 11,11,11,11,11',"""
+
+HHTo2W2ZTo4L_dict = fragmentsDictCreator(HHTo2W2ZTo4L)
 
 HHchannel_dict = {
  '4B' : HHTo4B_dict,
@@ -325,5 +378,8 @@ HHchannel_dict = {
  '2B2ZTo2L2J' : HHTo2B2L2J_dict,
  '2B2VTo2L2Nu' : HHTo2B2L2Nu_dict,
  '2B2Z2L2Nu_ZZfilter' : HHTo2B2ZTo2B2L2Nu_dict,
- '2B2VLNu2J' : HHTo2BLNu2J_dict
+ '2B2VLNu2J' : HHTo2BLNu2J_dict,
+ '2Tau2ZTo4L' :  HHTo2Tau2ZTo4L_dict,
+ '2G2ZTo4L'   :  HHTo2G2ZTo4L_dict,
+ '2W2ZTo4L'   : HHTo2W2ZTo4L_dict
 }
