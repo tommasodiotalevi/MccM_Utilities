@@ -18,7 +18,7 @@ for year in years:
 		# Iterate over all mass points
         for mass_point, nevents in mass_points_nevents.items():
             gridpacks = gridpacks_dict[year][mass_point] # NOTE: gridpacks_dict to be updated in fragments.py
-			ds_name = dataset_names[year].format(mass_point)
+			ds_name = dataset_names[year].format(str(mass_point).replace('.','p'))
 			proc_card_link = gridpacks[year][1]
 			gridpack_path = gridpacks[year][0]
 			pythia_fragment = pythia_fragmets_dict[year]
