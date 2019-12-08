@@ -15,15 +15,12 @@ for year in years:
         csvwriter = csv.writer(csvfile, delimiter=',', quotechar='\"', quoting=csv.QUOTE_MINIMAL)
         csvwriter.writerow(['Dataset name','Events', 'fragment','notes','Generator'])
 
-        for mode, nevents in production_modes_events.items():
-            gridpacks = gridpacks_dict[mode]
-            for res in resonances:
-                ds_name = dataset_names[year].format(mode, res)
-                runcard_link = gridpacks[year][1]
-                gridpack_path = gridpacks[year][0]
-                pythia_fragment = pythia_fragmets_dict[mode+'_'+res][year]
-                fragment = lhe_fragmet.replace('__LINK__',runcard_link).replace('__GRIDPACK__',gridpack_path).replace('__PYTHIA_FRAGMENT__',pythia_fragment)
-                csvwriter.writerow([ds_name,nevents,fragment,ds_name.split('_'),'Madgraph+Pythia'])
-                    #print(year, ds_name.format(mode,res))
-                    #print(lhe_fragmet.replace('__LINK__',runcard_link).replace('__GRIDPACK__',gridpack_path).replace('__PYTHIA_FRAGMENT__',fragment))
-                    #print(pythia_fragmets_dict[mode][year])
+		# Iterate over all mass points
+        for mass_point, nevents in mass_points_nevents.items():
+            gridpacks = gridpacks_dict[mass_point] # NOTE: gridpacks_dict to be updated in fragments.py
+			ds_name = dataset_names[year].format(mass_point)
+			proc_card_link = gridpacks[year][1]
+			gridpack_path = gridpacks[year][0]
+			pythia_fragment = pythia_fragmets_dict[year]
+			fragment = lhe_fragmet.replace('__LINK__',proc_card_link).replace('__GRIDPACK__',gridpack_path).replace('__PYTHIA_FRAGMENT__',pythia_fragment)
+			csvwriter.writerow([ds_name,nevents,fragment,ds_name.split('_'),'Madgraph+Pythia'])
