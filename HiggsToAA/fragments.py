@@ -107,25 +107,26 @@ h_aa = '''
 'JetMatching:doShowerKt = off', 
 '''
 
-########################
+# Mass points in GeV
+mass_points = [0.1, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.6, 2.0, 2.4, 3.0, 
+               5.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0
+			   55.0, 60.0]
 
-resonances = ['rho','phi']
-production_modes_events = {'VBFH' : 250000, 'WmH': 100000, 'WpH': 100000, 'ZH': 300000}
+mass_points_nevents = {}
 
-dataset_names = {'2016' : '{}ToZ{}_TuneCUETP8M1_PSweights_13TeV-powheg_pythia8',
-                 '2017' : '{}ToZ{}_TuneCP5_PSweights_13TeV-powheg_pythia8',
-                 '2018' : '{}ToZ{}_TuneCP5_PSweights_13TeV-powheg_pythia8'}
+# Create dictionary mapping mass points to number of eventts
+for mass_point in mass_points:
+	mass_points_nevents[mass_point] = 5e5
+
+dataset_names = {'2016' : 'HToAATo4Gamma_MA-{}GeV_TuneCUETP8M1_PSweights_13TeV-powheg_pythia8',
+                 '2017' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-powheg_pythia8',
+                 '2018' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-powheg_pythia8'}
 
 
-pythia_fragmets_dict = {'VBFH_rho' : fragmentsDictCreator(vbfh_zll_rho),
-                        'WmH_rho'  : fragmentsDictCreator(wh_zll_rho),
-                        'WpH_rho'  : fragmentsDictCreator(wh_zll_rho),
-                        'ZH_rho'   : fragmentsDictCreator(zh_zll_rho),
-                        'VBFH_phi' : fragmentsDictCreator(vbfh_zll_phi),
-                         'WmH_phi' : fragmentsDictCreator(wh_zll_phi),
-                         'WpH_phi' : fragmentsDictCreator(wh_zll_phi),
-                         'ZH_phi'  : fragmentsDictCreator(zh_zll_phi)
-                        }
+# Get the dictionary containing 2016, 2017 and 2018 fragments
+pythia_fragment_dict = fragmentsDictCreator(h_aa)
+
+gridpacks_dict = {'2016': gp_haa_2016, '2017': gp_haa_2017, '2018': gp_haa_2018}
 
 gridpacks_dict = {'VBFH' : {'2016': gp_vbf_2016, '2017': gp_vbf_2017, '2018': gp_vbf_2017},
                     'WmH' : {'2016': gp_WmH_2016, '2017': gp_WmH_2017, '2018': gp_WmH_2017},
