@@ -87,6 +87,7 @@ __PYTHIA_FRAGMENT__
 proc_card_path = 'https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat'
 
 # Add gridpack path once they are loaded on cvmfs
+# NOTE: Gridpack for each mass point should be placed here
 
 gp_haa_2016 = [] # gridpack path & proc_card_path for 2016
 gp_haa_2017 = [] # gridpack path & proc_card_path for 2017
@@ -109,7 +110,7 @@ h_aa = '''
 
 # Mass points in GeV
 mass_points = [0.1, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.6, 2.0, 2.4, 3.0, 
-               5.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0
+               5.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0,
 			   55.0, 60.0]
 
 mass_points_nevents = {}
