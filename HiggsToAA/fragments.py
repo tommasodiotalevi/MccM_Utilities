@@ -66,7 +66,7 @@ def fragmentsDictCreator (decay_fr):
                     }
     return dict
 
-lhe_fragmet = """import FWCore.ParameterSet.Config as cms
+lhe_fragment = """import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # __LINK__

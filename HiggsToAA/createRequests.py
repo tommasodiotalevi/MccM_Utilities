@@ -22,5 +22,5 @@ for year in years:
 			proc_card_link = gridpacks[year][1]
 			gridpack_path = gridpacks[year][0]
 			pythia_fragment = pythia_fragmets_dict[year]
-			fragment = lhe_fragmet.replace('__LINK__',proc_card_link).replace('__GRIDPACK__',gridpack_path).replace('__PYTHIA_FRAGMENT__',pythia_fragment)
+			fragment = lhe_fragment.replace('__LINK__',proc_card_link).replace('__GRIDPACK__',gridpack_path).replace('__PYTHIA_FRAGMENT__',pythia_fragment)
 			csvwriter.writerow([ds_name,nevents,fragment,ds_name.split('_'),'Madgraph+Pythia'])
