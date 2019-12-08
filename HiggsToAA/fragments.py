@@ -128,8 +128,3 @@ pythia_fragment_dict = fragmentsDictCreator(h_aa)
 
 gridpacks_dict = {'2016': gp_haa_2016, '2017': gp_haa_2017, '2018': gp_haa_2018}
 
-gridpacks_dict = {'VBFH' : {'2016': gp_vbf_2016, '2017': gp_vbf_2017, '2018': gp_vbf_2017},
-                    'WmH' : {'2016': gp_WmH_2016, '2017': gp_WmH_2017, '2018': gp_WmH_2017},
-                    'WpH' : {'2016': gp_WpH_2016, '2017': gp_WpH_2017, '2018': gp_WpH_2017},
-                     'ZH' : {'2016': gp_ZH_2016,  '2017': gp_ZH_2017,  '2018': gp_ZH_2016}
-                    }
