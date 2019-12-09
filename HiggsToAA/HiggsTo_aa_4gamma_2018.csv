@@ -1,5 +1,5 @@
 Dataset name,Events,fragment,notes,Generator
-HToAATo4Gamma_MA-2p4GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+HAHMHToAA_AToGG_MA-2p4GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -53,8 +53,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-2p4GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-60GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-2p4GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-60GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -108,8 +108,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-60GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-0p2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-60GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-0p2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -163,8 +163,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-0p2GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-0p1GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-0p2GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-0p1GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -218,8 +218,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-0p1GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-0p6GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-0p1GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-0p6GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -273,8 +273,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-0p6GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-0p4GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-0p6GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-0p4GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -328,8 +328,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-0p4GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-1p2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-0p4GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-1p2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -383,8 +383,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-1p2GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-0p8GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-1p2GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-0p8GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -438,8 +438,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-0p8GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-1p6GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-0p8GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-1p6GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -493,8 +493,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-1p6GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-25GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-1p6GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-25GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -548,8 +548,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-25GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-20GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-25GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-20GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -603,8 +603,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-20GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-45GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-20GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-45GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -658,8 +658,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-45GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-40GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-45GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-40GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -713,8 +713,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-40GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-1GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-40GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-1GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -768,8 +768,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-1GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-3GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-1GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-3GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -823,8 +823,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-3GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-3GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -878,8 +878,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-2GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-5GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-2GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-5GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -933,8 +933,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-5GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-10GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-5GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-10GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -988,8 +988,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-10GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-15GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-10GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-15GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -1043,8 +1043,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-15GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-55GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-15GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-55GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -1098,8 +1098,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-55GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-30GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-55GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-30GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -1153,8 +1153,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-30GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-50GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-30GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-50GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -1208,8 +1208,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-50GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
-HToAATo4Gamma_MA-35GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
+","['HAHMHToAA', 'AToGG', 'MA-50GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HAHMHToAA_AToGG_MA-35GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
 # https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
@@ -1263,4 +1263,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 
-","['HToAATo4Gamma', 'MA-35GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+","['HAHMHToAA', 'AToGG', 'MA-35GeV', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia

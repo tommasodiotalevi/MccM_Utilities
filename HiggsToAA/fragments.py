@@ -130,9 +130,9 @@ for mass_point in mass_points:
 	gp_haa_2017[mass_point] = path_tup
 	gp_haa_2018[mass_point] = path_tup
 
-dataset_names = {'2016' : 'HToAATo4Gamma_MA-{}GeV_TuneCUETP8M1_PSweights_13TeV-madgraph_pythia8',
-                 '2017' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8',
-                 '2018' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8'}
+dataset_names = {'2016' : 'HAHMHToAA_AToGG_MA-{}GeV_TuneCUETP8M1_PSweights_13TeV-madgraph_pythia8',
+                 '2017' : 'HAHMHToAA_AToGG_MA-{}GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8',
+                 '2018' : 'HAHMHToAA_AToGG_MA-{}GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8'}
 
 
 # Get the dictionary containing 2016, 2017 and 2018 fragments
