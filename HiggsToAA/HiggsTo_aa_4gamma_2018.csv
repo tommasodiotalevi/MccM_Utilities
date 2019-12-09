@@ -2,7 +2,7 @@ Dataset name,Events,fragment,notes,Generator
 HToAATo4Gamma_MA-2p4GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma2p4GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -10,7 +10,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma2p4GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -57,7 +57,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-60GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma60GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -65,7 +65,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma60GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -112,7 +112,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-0p2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p2GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -120,7 +120,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p2GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -167,7 +167,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-0p1GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p1GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -175,7 +175,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p1GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -222,7 +222,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-0p6GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p6GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -230,7 +230,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p6GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -277,7 +277,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-0p4GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p4GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -285,7 +285,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p4GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -332,7 +332,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-1p2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma1p2GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -340,7 +340,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma1p2GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -387,7 +387,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-0p8GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p8GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -395,7 +395,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma0p8GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -442,7 +442,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-1p6GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma1p6GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -450,7 +450,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma1p6GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -497,7 +497,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-25GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma25GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -505,7 +505,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma25GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -552,7 +552,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-20GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma20GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -560,7 +560,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma20GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -607,7 +607,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-45GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma45GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -615,7 +615,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma45GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -662,7 +662,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-40GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma40GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -670,7 +670,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma40GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -717,7 +717,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-1GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma1GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -725,7 +725,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma1GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -772,7 +772,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-3GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma3GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -780,7 +780,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma3GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -827,7 +827,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-2GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma2GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -835,7 +835,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma2GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -882,7 +882,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-5GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma5GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -890,7 +890,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma5GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -937,7 +937,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-10GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma10GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -945,7 +945,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma10GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -992,7 +992,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-15GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma15GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -1000,7 +1000,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma15GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -1047,7 +1047,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-55GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma55GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -1055,7 +1055,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma55GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -1102,7 +1102,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-30GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma30GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -1110,7 +1110,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma30GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -1157,7 +1157,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-50GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma50GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -1165,7 +1165,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma50GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
@@ -1212,7 +1212,7 @@ ProductionFilterSequence = cms.Sequence(generator)
 HToAATo4Gamma_MA-35GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8,500000,"import FWCore.ParameterSet.Config as cms
 
 # link to card:
-# /cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma35GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz
+# https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat
 
 
 externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
@@ -1220,7 +1220,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),
     numberOfParameters = cms.uint32(1),
-    args = cms.vstring('https://github.com/mbandrews/genproductions/blob/13ccb9321b7320770f5b8e7c211c93a2ebbd3591/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j/hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat')
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.5/hToaaTo4gamma_MLM_4f/v1/hToaaTo4gamma_ma35GeV_MLM_4f_max1j_slc6_amd64_gcc630_CMSSW_9_3_16_tarball.tar.xz')
 )
 
 import FWCore.ParameterSet.Config as cms
