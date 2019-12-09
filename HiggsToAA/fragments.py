@@ -124,15 +124,15 @@ gp_haa_2018 = {} # gridpack path & proc_card_path for 2018
 mass_points_nevents = {}
 
 for mass_point in mass_points:
-	mass_points_nevents[mass_point] = 5e5
+	mass_points_nevents[mass_point] = 500000
 	path_tup = proc_card_path, gridpack_path_template.format(mass_point)
 	gp_haa_2016[mass_point] = path_tup 
 	gp_haa_2017[mass_point] = path_tup
 	gp_haa_2018[mass_point] = path_tup
 
-dataset_names = {'2016' : 'HToAATo4Gamma_MA-{}GeV_TuneCUETP8M1_PSweights_13TeV-powheg_pythia8',
-                 '2017' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-powheg_pythia8',
-                 '2018' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-powheg_pythia8'}
+dataset_names = {'2016' : 'HToAATo4Gamma_MA-{}GeV_TuneCUETP8M1_PSweights_13TeV-madgraph_pythia8',
+                 '2017' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8',
+                 '2018' : 'HToAATo4Gamma_MA-{}GeV_TuneCP5_PSweights_13TeV-madgraph_pythia8'}
 
 
 # Get the dictionary containing 2016, 2017 and 2018 fragments
