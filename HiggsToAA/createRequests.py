@@ -17,8 +17,8 @@ for year in years:
         for mass_point, nevents in mass_points_nevents.items():
             gridpacks = gridpacks_dict[year][mass_point] 
             ds_name = dataset_names[year].format(mass_point)
-            proc_card_link = gridpacks[1]
-            gridpack_path = gridpacks[0]
+            proc_card_link = gridpacks[0]
+            gridpack_path = gridpacks[1]
             pythia_fragment = pythia_fragment_dict[year]
             fragment = lhe_fragment.replace('__LINK__',proc_card_link).replace('__GRIDPACK__',gridpack_path).replace('__PYTHIA_FRAGMENT__',pythia_fragment)
             csvwriter.writerow([ds_name,nevents,fragment,ds_name.split('_'),'Madgraph+Pythia'])
