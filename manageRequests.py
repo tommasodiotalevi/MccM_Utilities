@@ -455,7 +455,7 @@ def modifyRequests(requests, num_requests, doDryRun, useDev, isLHErequest):
             mod_req['size_event'] = reqFields.getSize()
         if reqFields.useGen():
             mod_req['generators'] = reqFields.getGen()
-        if (reqFields.useCS() or reqFields.useFiltEff()
+        if not (reqFields.useCS() or reqFields.useFiltEff()
             or reqFields.useFiltEffErr() or reqFields.useMatchEff()
             or reqFields.useMatchEffErr()) and mod_req['generator_parameters'] == []:
             mod_req['generator_parameters'] = [{'match_efficiency_error': 0.0,
