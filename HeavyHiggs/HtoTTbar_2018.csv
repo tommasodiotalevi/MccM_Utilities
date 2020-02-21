@@ -1,0 +1,1041 @@
+Dataset name,Events,fragment,notes,generator
+HToTTbar_M-400_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_SCALAR_wnat/heavyhiggs_13TeV_m400_INT_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m400_INT_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-400', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-600_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_SCALAR_wnat/heavyhiggs_13TeV_m400_INT_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m600_INT_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-600', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-1000_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_SCALAR_wnat/heavyhiggs_13TeV_m400_INT_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m1000_INT_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-1000', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-365_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_SCALAR_wnat/heavyhiggs_13TeV_m400_INT_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m365_INT_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-365', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-800_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_SCALAR_wnat/heavyhiggs_13TeV_m400_INT_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m800_INT_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-800', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-400_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_SCALAR_wnat/heavyhiggs_13TeV_m400_RES_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m400_RES_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-400', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-600_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_SCALAR_wnat/heavyhiggs_13TeV_m400_RES_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m600_RES_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-600', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-1000_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_SCALAR_wnat/heavyhiggs_13TeV_m400_RES_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m1000_RES_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-1000', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-365_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_SCALAR_wnat/heavyhiggs_13TeV_m400_RES_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m365_RES_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-365', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-800_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_SCALAR_wnat/heavyhiggs_13TeV_m400_RES_SCALAR_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_SCALAR_wnat/v1/heavyhiggs_13TeV_m800_RES_SCALAR_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-800', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-400_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-400', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-600_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m600_INT_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-600', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-1000_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m1000_INT_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-1000', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-365_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m365_INT_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-365', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-800_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat/heavyhiggs_13TeV_m400_INT_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m800_INT_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-800', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-400_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-400', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-600_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m600_RES_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-600', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-1000_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m1000_RES_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-1000', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-365_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m365_RES_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-365', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
+HToTTbar_M-800_TuneCP5_PSweights_13TeV-madgraph_pythia8,2000000,"import FWCore.ParameterSet.Config as cms
+
+# link to card:
+# https://github.com/cms-sw/genproductions/blob/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Htottbar_dilepton/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat/heavyhiggs_13TeV_m400_RES_PSEUDO_wnat_proc_card.dat
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc630/13TeV/madgraph/V5_2.6.0/heavyhiggs_13TeV_mX_INT_PSEUDO_wnat/v1/heavyhiggs_13TeV_m800_RES_PSEUDO_wnat_slc6_amd64_gcc630_CMSSW_9_3_8_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(10000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+import FWCore.ParameterSet.Config as cms
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    )
+    )
+)
+
+cctauFilter = cms.EDFilter(""PythiaDauVFilter"",
+    ChargeConjugation = cms.untracked.bool(True),
+    DaughterIDs = cms.untracked.vint32(11, 13),
+    MaxEta = cms.untracked.vdouble(999.0, 999.0),
+    MinEta = cms.untracked.vdouble(-999.0, -999.0),
+    MinPt = cms.untracked.vdouble(0.0, 0.0),
+    MotherID = cms.untracked.int32(24),
+    NumberDaughters = cms.untracked.int32(0),
+    ParticleID = cms.untracked.int32(15),
+    verbose = cms.untracked.int32(0)
+)
+
+
+
+ProductionFilterSequence = cms.Sequence(generator+~cctauFilter)
+
+","['HToTTbar', 'M-800', 'TuneCP5', 'PSweights', '13TeV-madgraph', 'pythia8']",Madgraph+Pythia
