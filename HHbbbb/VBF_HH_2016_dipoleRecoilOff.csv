@@ -30,8 +30,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -75,8 +74,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -120,8 +118,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -165,8 +162,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -210,8 +206,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -255,8 +250,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -300,8 +294,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                                                                                                                                                                         
 '25:onMode = off',                                                                                                                                                                                          
 '25:onIfMatch = 5 -5',                                                                                                                                                                                      
-'ResonanceDecayFilter:filter = on',                                                                                                                                                                         
-'SpaceShower:dipoleRecoil = off'                                                                                                                                                                             
+'ResonanceDecayFilter:filter = on'                                                                                                                                                                                                                                                
                                                                                                                                                                      
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
