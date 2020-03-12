@@ -1,5 +1,5 @@
 Dataset name,Events,fragment,notes,Generator
-VBF_HH2b2g_CV_1_C2V_1_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+VBFHHTo2B2G_CV_1_C2V_1_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -37,7 +37,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -49,8 +49,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 1 C2V 1 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
-VBF_HH2b2g_CV_1_C2V_1_C3_0_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+",VBFHHTo2B2G CV 1 C2V 1 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+VBFHHTo2B2G_CV_1_C2V_1_C3_0_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -88,7 +88,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -100,8 +100,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 1 C2V 1 C3 0 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
-VBF_HH2b2g_CV_1_C2V_1_C3_2_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+",VBFHHTo2B2G CV 1 C2V 1 C3 0 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+VBFHHTo2B2G_CV_1_C2V_1_C3_2_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -139,7 +139,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -151,8 +151,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 1 C2V 1 C3 2 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
-VBF_HH2b2g_CV_1_C2V_2_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+",VBFHHTo2B2G CV 1 C2V 1 C3 2 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+VBFHHTo2B2G_CV_1_C2V_2_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -190,7 +190,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -202,8 +202,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 1 C2V 2 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
-VBF_HH2b2g_CV_0_5_C2V_1_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+",VBFHHTo2B2G CV 1 C2V 2 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+VBFHHTo2B2G_CV_0_5_C2V_1_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -241,7 +241,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -253,8 +253,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 0 5 C2V 1 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
-VBF_HH2b2g_CV_1_5_C2V_1_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+",VBFHHTo2B2G CV 0 5 C2V 1 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+VBFHHTo2B2G_CV_1_5_C2V_1_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -292,7 +292,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -304,8 +304,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 1 5 C2V 1 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
-VBF_HH2b2g_CV_1_C2V_0_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+",VBFHHTo2B2G CV 1 5 C2V 1 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+VBFHHTo2B2G_CV_1_C2V_0_C3_1_dipoleRecoilOff-TuneCP5_PSweights_13TeV-madgraph-pythia8,4000000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
 # link to card:                                                                                                                                                                                             
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/VBF_HH                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                             
@@ -343,7 +343,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 'ResonanceDecayFilter:mothers = 25',   #list of mothers not specified => count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
 'ResonanceDecayFilter:daughters = 5,5,22,22'
 '25:onMode = off',
-'SpaceShower:dipoleRecoil = off'
+'SpaceShower:dipoleRecoil = off' 
                                                                                                                                                                       
           ),                                                                                                                                                                                                
         parameterSets = cms.vstring('pythia8CommonSettings',                                                                                                                                                
@@ -355,4 +355,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )                                                                                                                                                                                  
                                                                                                                                                                                                             
 ProductionFilterSequence = cms.Sequence(generator)                                                                                                                                                          
-",VBF HH2b2g CV 1 C2V 0 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
+",VBFHHTo2B2G CV 1 C2V 0 C3 1 dipoleRecoilOff-TuneCP5 PSweights 13TeV-madgraph-pythia8,Madgraph_2.6.5  Pythia8
