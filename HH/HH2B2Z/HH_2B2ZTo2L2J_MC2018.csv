@@ -1,7 +1,5 @@
 Dataset name,Events,fragment,notes,Generator
-GluGluToRadionToHHTo2B2ZTo2L2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M260/v1/Radion_hh_narrow_M260_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -16,6 +14,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -26,6 +25,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -50,6 +50,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -58,9 +59,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-260 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M270/v1/Radion_hh_narrow_M270_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -75,6 +74,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -85,6 +85,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -109,6 +110,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -117,9 +119,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-270 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M300/v1/Radion_hh_narrow_M300_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -134,6 +134,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -144,6 +145,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -168,6 +170,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -176,9 +179,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-300 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M350/v1/Radion_hh_narrow_M350_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -193,6 +194,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -203,6 +205,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -227,6 +230,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -235,9 +239,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-350 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M400/v1/Radion_hh_narrow_M400_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -252,6 +254,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -262,6 +265,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -286,6 +290,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -294,9 +299,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-400 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M450/v1/Radion_hh_narrow_M450_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -311,6 +314,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -321,6 +325,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -345,6 +350,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -353,9 +359,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-450 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M500/v1/Radion_hh_narrow_M500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -370,6 +374,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -380,6 +385,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -404,6 +410,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -412,9 +419,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M550/v1/Radion_hh_narrow_M550_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -429,6 +434,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -439,6 +445,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -463,6 +470,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -471,9 +479,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-550 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M600/v1/Radion_hh_narrow_M600_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -488,6 +494,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -498,6 +505,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -522,6 +530,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -530,9 +539,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-600 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M650/v1/Radion_hh_narrow_M650_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -547,6 +554,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -557,6 +565,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -581,6 +590,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -589,9 +599,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-650 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M700/v1/Radion_hh_narrow_M700_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -606,6 +614,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -616,6 +625,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -640,6 +650,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -648,9 +659,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-700 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M750/v1/GluGluToRadionToHH_M750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -665,6 +674,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -675,6 +685,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -699,6 +710,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -707,9 +719,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-750 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M800/v1/GluGluToRadionToHH_M800_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -724,6 +734,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -734,6 +745,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -758,6 +770,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -766,9 +779,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-800 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M900/v1/Radion_hh_narrow_M900_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -783,6 +794,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -793,6 +805,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -817,6 +830,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -825,9 +839,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-900 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2ZTo2L2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2ZTo2L2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1000/v1/Radion_hh_narrow_M1000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -842,6 +854,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -852,6 +865,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -876,6 +890,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -884,9 +899,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2ZTo2L2J M-1000 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M260/v1/BulkGraviton_hh_GF_HH_narrow_M260_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -901,6 +914,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -911,6 +925,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -935,6 +950,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -943,9 +959,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-260 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M270/v1/BulkGraviton_hh_GF_HH_narrow_M270_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -960,6 +974,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -970,6 +985,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -994,6 +1010,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1002,9 +1019,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-270 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M300/v1/BulkGraviton_hh_GF_HH_narrow_M300_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1019,6 +1034,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1029,6 +1045,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1053,6 +1070,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1061,9 +1079,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-300 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M350/v1/BulkGraviton_hh_GF_HH_narrow_M350_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1078,6 +1094,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1088,6 +1105,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1112,6 +1130,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1120,9 +1139,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-350 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M400/v1/BulkGraviton_hh_GF_HH_narrow_M400_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1137,6 +1154,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1147,6 +1165,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1171,6 +1190,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1179,9 +1199,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-400 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M450/v1/BulkGraviton_hh_GF_HH_narrow_M450_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1196,6 +1214,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1206,6 +1225,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1230,6 +1250,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1238,9 +1259,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-450 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M500/v1/BulkGraviton_hh_GF_HH_narrow_M500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1255,6 +1274,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1265,6 +1285,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1289,6 +1310,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1297,9 +1319,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M550/v2/BulkGraviton_hh_GF_HH_narrow_M550_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1314,6 +1334,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1324,6 +1345,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1348,6 +1370,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1356,9 +1379,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-550 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M600/v1/BulkGraviton_hh_GF_HH_narrow_M600_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1373,6 +1394,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1383,6 +1405,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1407,6 +1430,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1415,9 +1439,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-600 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M650/v1/BulkGraviton_hh_GF_HH_narrow_M650_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1432,6 +1454,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1442,6 +1465,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1466,6 +1490,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1474,9 +1499,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-650 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M700/v1/BulkGraviton_hh_GF_HH_narrow_M700_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1491,6 +1514,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1501,6 +1525,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1525,6 +1550,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1533,9 +1559,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-700 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M750/v1/BulkGraviton_hh_GF_HH_narrow_M750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1550,6 +1574,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1560,6 +1585,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1584,6 +1610,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1592,9 +1619,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-750 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M800/v1/BulkGraviton_hh_GF_HH_narrow_M800_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1609,6 +1634,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1619,6 +1645,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1643,6 +1670,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1651,9 +1679,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-800 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToBulkGravitonToHH_M900/v1/GluGluToBulkGravitonToHH_M900_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1668,6 +1694,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1678,6 +1705,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1702,6 +1730,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )
@@ -1710,9 +1739,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2ZTo2L2J M-900 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2ZTo2L2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M1000/v1/BulkGraviton_hh_GF_HH_narrow_M1000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1727,6 +1754,7 @@ import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1737,6 +1765,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(
             '15:onMode = off',
             '15:onIfAny = 11 13', # only leptonic tau decays
@@ -1761,6 +1790,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
           ),
         parameterSets = cms.vstring('pythia8CommonSettings',
                                     'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
                                     'processParameters'
                                     )
         )

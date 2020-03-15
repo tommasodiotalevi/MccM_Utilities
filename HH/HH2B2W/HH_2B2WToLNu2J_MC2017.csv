@@ -1,7 +1,5 @@
 Dataset name,Events,fragment,notes,Generator
-GluGluToHHTo2B2WToLNu2J_node_box_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_box_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc481/13TeV/madgraph/V5_2.3.3/GF_HH_node_box/v1/GF_HH_node_box_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -15,6 +13,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -26,6 +25,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -44,6 +44,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -51,9 +52,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node box TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.3.3 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_2_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_2_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_2/v1/GF_HH_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -67,6 +66,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -78,6 +78,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -96,6 +97,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -103,9 +105,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 2 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_3_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_3_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_3/v1/GF_HH_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -119,6 +119,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -130,6 +131,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -148,6 +150,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -155,9 +158,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 3 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_4_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_4_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_4/v1/GF_HH_4_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -171,6 +172,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -182,6 +184,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -200,6 +203,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -207,9 +211,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 4 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_5_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_5_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_5/v1/GF_HH_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -223,6 +225,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -234,6 +237,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -252,6 +256,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -259,9 +264,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 5 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_6_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_6_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_6/v1/GF_HH_6_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -275,6 +278,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -286,6 +290,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -304,6 +309,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -311,9 +317,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 6 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_7_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_7_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_7/v1/GF_HH_7_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -327,6 +331,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -338,6 +343,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -356,6 +362,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -363,9 +370,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 7 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_8_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_8_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_8/v1/GF_HH_8_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -379,6 +384,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -390,6 +396,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -408,6 +415,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -415,9 +423,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 8 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_9_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_9_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_9/v1/GF_HH_9_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -431,6 +437,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -442,6 +449,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -460,6 +468,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -467,9 +476,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 9 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_10_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_10_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_10/v1/GF_HH_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -483,6 +490,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -494,6 +502,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -512,6 +521,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -519,9 +529,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 10 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_11_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_11_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_11/v1/GF_HH_11_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -535,6 +543,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -546,6 +555,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -564,6 +574,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -571,9 +582,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 11 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToHHTo2B2WToLNu2J_node_12_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToHHTo2B2WToLNu2J_node_12_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_12/v1/GF_HH_12_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -587,6 +596,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -598,6 +608,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -616,6 +627,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -623,9 +635,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToHHTo2B2WToLNu2J node 12 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M250/v1/GluGluToRadionToHH_M250_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -639,6 +649,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -650,6 +661,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -668,6 +680,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -675,9 +688,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-250 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M260/v1/Radion_hh_narrow_M260_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -691,6 +702,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -702,6 +714,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -720,6 +733,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -727,9 +741,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-260 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M270/v1/Radion_hh_narrow_M270_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -743,6 +755,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -754,6 +767,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -772,6 +786,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -779,9 +794,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-270 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-280_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-280_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M280/v1/GluGluToRadionToHH_M280_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -795,6 +808,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -806,6 +820,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -824,6 +839,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -831,9 +847,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-280 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M300/v1/Radion_hh_narrow_M300_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -847,6 +861,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -858,6 +873,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -876,6 +892,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -883,9 +900,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-300 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-320_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-320_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GluGluToRadionToHH_M320/v1/GluGluToRadionToHH_M320_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -899,6 +914,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -910,6 +926,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -928,6 +945,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -935,9 +953,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-320 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M350/v1/Radion_hh_narrow_M350_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -951,6 +967,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -962,6 +979,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -980,6 +998,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -987,9 +1006,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-350 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M400/v1/Radion_hh_narrow_M400_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1003,6 +1020,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1014,6 +1032,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1032,6 +1051,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1039,9 +1059,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-400 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M450/v1/Radion_hh_narrow_M450_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1055,6 +1073,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1066,6 +1085,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1084,6 +1104,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1091,9 +1112,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-450 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M500/v1/Radion_hh_narrow_M500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1107,6 +1126,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1118,6 +1138,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1136,6 +1157,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1143,9 +1165,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M550/v1/Radion_hh_narrow_M550_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1159,6 +1179,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1170,6 +1191,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1188,6 +1210,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1195,9 +1218,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-550 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M600/v1/Radion_hh_narrow_M600_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1211,6 +1232,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1222,6 +1244,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1240,6 +1263,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1247,9 +1271,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-600 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M650/v1/Radion_hh_narrow_M650_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1263,6 +1285,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1274,6 +1297,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1292,6 +1316,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1299,9 +1324,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-650 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M700/v1/Radion_hh_narrow_M700_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1315,6 +1338,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1326,6 +1350,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1344,6 +1369,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1351,9 +1377,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-700 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M750/v1/GluGluToRadionToHH_M750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1367,6 +1391,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1378,6 +1403,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1396,6 +1422,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1403,9 +1430,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-750 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M800/v1/GluGluToRadionToHH_M800_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1419,6 +1444,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1430,6 +1456,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1448,6 +1475,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1455,9 +1483,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-800 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-850_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-850_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M850/v1/GluGluToRadionToHH_M850_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1471,6 +1497,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1482,6 +1509,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1500,6 +1528,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1507,9 +1536,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-850 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M900/v1/Radion_hh_narrow_M900_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1523,6 +1550,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1534,6 +1562,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1552,6 +1581,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1559,9 +1589,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-900 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1000/v1/Radion_hh_narrow_M1000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1575,6 +1603,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1586,6 +1615,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1604,6 +1634,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1611,9 +1642,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-1000 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-1250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-1250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M1250/v1/GluGluToRadionToHH_M1250_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1627,6 +1656,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1638,6 +1668,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1656,6 +1687,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1663,9 +1695,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-1250 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-1500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-1500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1500/v1/Radion_hh_narrow_M1500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1679,6 +1709,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1690,6 +1721,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1708,6 +1740,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1715,9 +1748,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-1500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-1750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-1750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M1750/v1/GluGluToRadionToHH_M1750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1731,6 +1762,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1742,6 +1774,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1760,6 +1793,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1767,9 +1801,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-1750 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-2000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-2000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M2000/v1/Radion_hh_narrow_M2000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1783,6 +1815,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1794,6 +1827,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1812,6 +1846,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1819,9 +1854,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-2000 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-2500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-2500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M2500/v1/GluGluToRadionToHH_M2500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1835,6 +1868,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1846,6 +1880,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1864,6 +1899,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1871,9 +1907,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-2500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToRadionToHHTo2B2WToLNu2J_M-3000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToRadionToHHTo2B2WToLNu2J_M-3000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToRadionToHH_M3000/v1/GluGluToRadionToHH_M3000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1887,6 +1921,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1898,6 +1933,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1916,6 +1952,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1923,9 +1960,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToRadionToHHTo2B2WToLNu2J M-3000 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M250/v1/BulkGraviton_hh_GF_HH_narrow_M250_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1939,6 +1974,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -1950,6 +1986,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -1968,6 +2005,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -1975,9 +2013,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-250 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-260_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M260/v1/BulkGraviton_hh_GF_HH_narrow_M260_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -1991,6 +2027,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2002,6 +2039,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2020,6 +2058,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2027,9 +2066,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-260 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-270_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M270/v1/BulkGraviton_hh_GF_HH_narrow_M270_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2043,6 +2080,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2054,6 +2092,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2072,6 +2111,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2079,9 +2119,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-270 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-280_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-280_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M280/v1/BulkGraviton_hh_GF_HH_narrow_M280_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2095,6 +2133,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2106,6 +2145,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2124,6 +2164,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2131,9 +2172,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-280 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-300_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M300/v1/BulkGraviton_hh_GF_HH_narrow_M300_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2147,6 +2186,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2158,6 +2198,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2176,6 +2217,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2183,9 +2225,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-300 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-320_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-320_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GluGluToBulkGravitonToHH_M320/v1/GluGluToBulkGravitonToHH_M320_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2199,6 +2239,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2210,6 +2251,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2228,6 +2270,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2235,9 +2278,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-320 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-350_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M350/v1/BulkGraviton_hh_GF_HH_narrow_M350_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2251,6 +2292,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2262,6 +2304,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2280,6 +2323,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2287,9 +2331,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-350 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-400_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M400/v1/BulkGraviton_hh_GF_HH_narrow_M400_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2303,6 +2345,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2314,6 +2357,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2332,6 +2376,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2339,9 +2384,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-400 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-450_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M450/v1/BulkGraviton_hh_GF_HH_narrow_M450_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2355,6 +2398,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2366,6 +2410,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2384,6 +2429,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2391,9 +2437,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-450 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M500/v1/BulkGraviton_hh_GF_HH_narrow_M500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2407,6 +2451,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2418,6 +2463,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2436,6 +2482,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2443,9 +2490,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-550_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,300000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M550/v2/BulkGraviton_hh_GF_HH_narrow_M550_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2459,6 +2504,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2470,6 +2516,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2488,6 +2535,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2495,9 +2543,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-550 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-600_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M600/v1/BulkGraviton_hh_GF_HH_narrow_M600_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2511,6 +2557,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2522,6 +2569,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2540,6 +2588,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2547,9 +2596,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-600 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-650_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M650/v1/BulkGraviton_hh_GF_HH_narrow_M650_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2563,6 +2610,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2574,6 +2622,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2592,6 +2641,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2599,9 +2649,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-650 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-700_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M700/v1/BulkGraviton_hh_GF_HH_narrow_M700_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2615,6 +2663,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2626,6 +2675,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2644,6 +2694,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2651,9 +2702,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-700 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M750/v1/BulkGraviton_hh_GF_HH_narrow_M750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2667,6 +2716,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2678,6 +2728,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2696,6 +2747,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2703,9 +2755,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-750 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-800_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M800/v1/BulkGraviton_hh_GF_HH_narrow_M800_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2719,6 +2769,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2730,6 +2781,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2748,6 +2800,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2755,9 +2808,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-800 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-850_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-850_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToBulkGravitonToHH_M850/v1/GluGluToBulkGravitonToHH_M850_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2771,6 +2822,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2782,6 +2834,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2800,6 +2853,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2807,9 +2861,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-850 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-900_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,200000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToBulkGravitonToHH_M900/v1/GluGluToBulkGravitonToHH_M900_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2823,6 +2875,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2834,6 +2887,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2852,6 +2906,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2859,9 +2914,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-900 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M1000/v1/BulkGraviton_hh_GF_HH_narrow_M1000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2875,6 +2928,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2886,6 +2940,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2904,6 +2959,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2911,9 +2967,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-1000 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1250_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToBulkGravitonToHH_M1250/v1/GluGluToBulkGravitonToHH_M1250_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2927,6 +2981,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2938,6 +2993,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -2956,6 +3012,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -2963,9 +3020,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-1250 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToBulkGravitonToHH_M1500/v1/GluGluToBulkGravitonToHH_M1500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -2979,6 +3034,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -2990,6 +3046,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -3008,6 +3065,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -3015,9 +3073,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-1500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-1750_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.6.0/GluGluToBulkGravitonToHH_M1750/v1/GluGluToBulkGravitonToHH_M1750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -3031,6 +3087,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -3042,6 +3099,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -3060,6 +3118,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -3067,9 +3126,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-1750 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.6.0 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-2000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-2000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M2000/v1/BulkGraviton_hh_GF_HH_narrow_M2000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -3083,6 +3140,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -3094,6 +3152,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -3112,6 +3171,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -3119,9 +3179,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-2000 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-2500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-2500_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M2500/v1/BulkGraviton_hh_GF_HH_narrow_M2500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -3135,6 +3193,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -3146,6 +3205,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -3164,6 +3224,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
@@ -3171,9 +3232,7 @@ generator = cms.EDFilter(
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",GluGluToBulkGravitonToHHTo2B2WToLNu2J M-2500 narrow TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
-GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-3000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"import FWCore.ParameterSet.Config as cms
-
-externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+GluGluToBulkGravitonToHHTo2B2WToLNu2J_M-3000_narrow_TuneCP5_PSWeights_13TeV-madgraph-pythia8,100000,"externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
     args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M3000/v1/BulkGraviton_hh_GF_HH_narrow_M3000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
@@ -3187,6 +3246,7 @@ externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
 import FWCore.ParameterSet.Config as cms
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import * 
 
 generator = cms.EDFilter(
     ""Pythia8HadronizerFilter"",
@@ -3198,6 +3258,7 @@ generator = cms.EDFilter(
     PythiaParameters=cms.PSet(
         pythia8CommonSettingsBlock,
         pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
         processParameters=cms.vstring(
             '24:mMin = 0.05',
             '24:onMode = on',
@@ -3216,6 +3277,7 @@ generator = cms.EDFilter(
         parameterSets=cms.vstring(
             'pythia8CommonSettings',
             'pythia8CP5Settings',
+            'pythia8PSweightsSettingsBlock',
             'processParameters',
         ),
     ),
