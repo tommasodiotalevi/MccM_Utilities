@@ -1,0 +1,521 @@
+Dataset name,Events,fragment,notes,Generator
+GluGluToHHTo4B_node_SM_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_SM/v1/GF_HH_SM_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node SM TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_1_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_1/v1/GF_HH_1_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 1 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_2_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_2/v1/GF_HH_2_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 2 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_3_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_3/v1/GF_HH_3_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 3 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_4_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_4/v1/GF_HH_4_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 4 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_5_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_5/v1/GF_HH_5_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 5 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_6_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_6/v1/GF_HH_6_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 6 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_7_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_7/v1/GF_HH_7_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 7 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_8_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_8/v1/GF_HH_8_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 8 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_9_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_9/v1/GF_HH_9_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 9 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_10_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_10/v1/GF_HH_10_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 10 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_11_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_11/v1/GF_HH_11_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 11 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
+GluGluToHHTo4B_node_12_TuneCP5_PSWeights_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/GF_HH_12/v1/GF_HH_12_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGluToHHTo4B node 12 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_V5_2.4.2 Pythia8
