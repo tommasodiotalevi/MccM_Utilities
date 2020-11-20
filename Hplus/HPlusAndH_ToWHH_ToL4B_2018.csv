@@ -1,0 +1,1276 @@
+Dataset name,Events,fragment,notes,Generator
+HPlusAndH_ToWHH_ToL4B_200_70_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_200_70/v1/HPlusAndH_ToWHH_ToL4B_200_70_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 200 70 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_200_80_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_200_80/v1/HPlusAndH_ToWHH_ToL4B_200_80_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 200 80 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_200_90_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_200_90/v1/HPlusAndH_ToWHH_ToL4B_200_90_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 200 90 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_200_100_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_200_100/v1/HPlusAndH_ToWHH_ToL4B_200_100_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 200 100 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_200_110_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_200_110/v1/HPlusAndH_ToWHH_ToL4B_200_110_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 200 110 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_300_70_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_300_70/v1/HPlusAndH_ToWHH_ToL4B_300_70_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 300 70 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_300_80_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_300_80/v1/HPlusAndH_ToWHH_ToL4B_300_80_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 300 80 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_300_90_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_300_90/v1/HPlusAndH_ToWHH_ToL4B_300_90_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 300 90 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_300_100_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_300_100/v1/HPlusAndH_ToWHH_ToL4B_300_100_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 300 100 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_300_110_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_300_110/v1/HPlusAndH_ToWHH_ToL4B_300_110_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 300 110 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_400_70_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_400_70/v1/HPlusAndH_ToWHH_ToL4B_400_70_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 400 70 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_400_80_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_400_80/v1/HPlusAndH_ToWHH_ToL4B_400_80_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 400 80 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_400_90_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_400_90/v1/HPlusAndH_ToWHH_ToL4B_400_90_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 400 90 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_400_100_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_400_100/v1/HPlusAndH_ToWHH_ToL4B_400_100_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 400 100 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_400_110_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_400_110/v1/HPlusAndH_ToWHH_ToL4B_400_110_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 400 110 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_500_70_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_500_70/v1/HPlusAndH_ToWHH_ToL4B_500_70_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 500 70 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_500_80_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_500_80/v1/HPlusAndH_ToWHH_ToL4B_500_80_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 500 80 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_500_90_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_500_90/v1/HPlusAndH_ToWHH_ToL4B_500_90_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 500 90 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_500_100_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_500_100/v1/HPlusAndH_ToWHH_ToL4B_500_100_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 500 100 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_500_110_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_500_110/v1/HPlusAndH_ToWHH_ToL4B_500_110_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 500 110 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_600_70_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_600_70/v1/HPlusAndH_ToWHH_ToL4B_600_70_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 600 70 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_600_80_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_600_80/v1/HPlusAndH_ToWHH_ToL4B_600_80_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 600 80 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_600_90_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_600_90/v1/HPlusAndH_ToWHH_ToL4B_600_90_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 600 90 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_600_100_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_600_100/v1/HPlusAndH_ToWHH_ToL4B_600_100_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 600 100 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
+HPlusAndH_ToWHH_ToL4B_600_110_TuneCP5_PSWeights_13TeV-madgraph-pythia8,500000,"import FWCore.ParameterSet.Config as cms                                                                                                                                                  
+#Link to Madgraph datacard:
+#https://github.com/cms-sw/genproductions/blob/a2862dacd642f95af327278fd8a888a3a00d2c3a/bin/MadGraph5_aMCatNLO/cards/production/13TeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_proc_card.dat
+
+#Link to Pythia fragment:
+#https://github.com/DaveBrun94/genproductions/blob/68e4dcfd2694cb9f84421f76e9b48ead041aab3b/python/ThirteenTeV/HPlusAndH_ToWHH_ToL4B/HPlusAndH_ToWHH_ToL4B_TuneCP5_13TeV_madgraph_MLM_4f_pythia8_cff.py
+                                                                                                                                                                                                            
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",                                                                                                                                                 
+    nEvents = cms.untracked.uint32(5000),                                                                                                                                                                   
+    outputFile = cms.string('cmsgrid_final.lhe'),                                                                                                                                                           
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh'),                                                                                                       
+    numberOfParameters = cms.uint32(1),                                                                                                                                                                     
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.1/HPlusAndH_ToWHH_ToL4B_600_110/v1/HPlusAndH_ToWHH_ToL4B_600_110_slc7_amd64_gcc700_CMSSW_10_6_0_tarball.tar.xz')                                                                                                                                                                      
+)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8HadronizerFilter"",
+    maxEventsToPrint = cms.untracked.int32(1),
+    pythiaPylistVerbosity = cms.untracked.int32(1),
+    filterEfficiency = cms.untracked.double(1.0),
+    pythiaHepMCVerbosity = cms.untracked.bool(False),
+    comEnergy = cms.double(13000.),
+    PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+            'JetMatching:setMad = off',
+            'JetMatching:scheme = 1',
+            'JetMatching:merge = on',
+            'JetMatching:jetAlgorithm = 2',
+            'JetMatching:etaJetMax = 5.',
+            'JetMatching:coneRadius = 1.',
+            'JetMatching:slowJetPower = 1',
+            'JetMatching:qCut = 30.', #this is the actual merging scale
+            'JetMatching:nQmatch = 4', #4 for 4-flavour scheme (matching of b-quarks)
+            'JetMatching:nJetMax = 2', #number of partons in born matrix element for highest multiplicity
+            'JetMatching:doShowerKt = off', #off for MLM matching, turn on for shower-kT matching
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+    )
+)                                                                                                                                                                                                           
+                                                                                                                                                                                                            
+ProductionFilterSequence = cms.Sequence(generator)",HPlusAndH ToWHH ToL4B 600 110 TuneCP5 PSWeights 13TeV-madgraph-pythia8,Madgraph_2.6.1  Pythia8
