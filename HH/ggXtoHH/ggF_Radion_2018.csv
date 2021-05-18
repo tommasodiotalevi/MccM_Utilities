@@ -1,5 +1,5 @@
 Dataset name,Events,fragment,notes,Generator
-GluGluToRadionToHHTo2B2Tau_M-250_TuneCP5_narrow_13TeV_madgraph,400000,"
+GluGluToRadionToHHTo2B2Tau_M-250_TuneCP5_narrow_13TeV_mcatnlo-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14,8 +14,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -49,8 +47,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-250 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-260_TuneCP5_narrow_13TeV_madgraph,400000,"
+",GluGluToRadionToHHTo2B2Tau M-250 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-260_TuneCP5_narrow_13TeV_mcatnlo-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -65,8 +63,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -100,8 +96,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-260 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-270_TuneCP5_narrow_13TeV_madgraph,400000,"
+",GluGluToRadionToHHTo2B2Tau M-260 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-270_TuneCP5_narrow_13TeV_mcatnlo-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -116,8 +112,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -151,8 +145,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-270 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-280_TuneCP5_narrow_13TeV_madgraph,400000,"
+",GluGluToRadionToHHTo2B2Tau M-270 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-280_TuneCP5_narrow_13TeV_mcatnlo-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -167,8 +161,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -202,8 +194,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-280 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-300_TuneCP5_narrow_13TeV_madgraph,300000,"
+",GluGluToRadionToHHTo2B2Tau M-280 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-300_TuneCP5_narrow_13TeV_mcatnlo-pythia8,300000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -218,8 +210,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -253,8 +243,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-300 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-320_TuneCP5_narrow_13TeV_madgraph,300000,"
+",GluGluToRadionToHHTo2B2Tau M-300 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-320_TuneCP5_narrow_13TeV_mcatnlo-pythia8,300000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -269,8 +259,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -304,8 +292,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-320 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-350_TuneCP5_narrow_13TeV_madgraph,300000,"
+",GluGluToRadionToHHTo2B2Tau M-320 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-350_TuneCP5_narrow_13TeV_mcatnlo-pythia8,300000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -320,8 +308,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -355,8 +341,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-350 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-400_TuneCP5_narrow_13TeV_madgraph,300000,"
+",GluGluToRadionToHHTo2B2Tau M-350 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-400_TuneCP5_narrow_13TeV_mcatnlo-pythia8,300000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -371,8 +357,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -406,8 +390,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-400 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-450_TuneCP5_narrow_13TeV_madgraph,300000,"
+",GluGluToRadionToHHTo2B2Tau M-400 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-450_TuneCP5_narrow_13TeV_mcatnlo-pythia8,300000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -422,8 +406,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -457,8 +439,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-450 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-500_TuneCP5_narrow_13TeV_madgraph,300000,"
+",GluGluToRadionToHHTo2B2Tau M-450 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-500_TuneCP5_narrow_13TeV_mcatnlo-pythia8,300000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -473,8 +455,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -508,8 +488,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-500 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-550_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-500 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-550_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -524,8 +504,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -559,8 +537,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-550 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-600_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-550 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-600_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -575,8 +553,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -610,8 +586,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-600 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-650_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-600 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-650_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -626,8 +602,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -661,8 +635,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-650 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-700_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-650 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-700_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -677,8 +651,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -712,8 +684,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-700 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-750_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-700 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-750_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -728,8 +700,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -763,8 +733,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-750 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-800_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-750 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-800_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -779,8 +749,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -814,8 +782,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-800 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-850_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-800 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-850_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -830,8 +798,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -865,8 +831,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-850 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-900_TuneCP5_narrow_13TeV_madgraph,200000,"
+",GluGluToRadionToHHTo2B2Tau M-850 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-900_TuneCP5_narrow_13TeV_mcatnlo-pythia8,200000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -881,8 +847,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -916,8 +880,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-900 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-1000_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-900 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-1000_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -932,8 +896,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -967,8 +929,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-1000 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-1250_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-1000 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-1250_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -983,8 +945,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -1018,8 +978,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-1250 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-1500_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-1250 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-1500_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1034,8 +994,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -1069,8 +1027,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-1500 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-1750_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-1500 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-1750_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1085,8 +1043,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -1120,8 +1076,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-1750 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-2000_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-1750 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-2000_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1136,8 +1092,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -1171,8 +1125,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-2000 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-2500_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-2000 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-2500_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1187,8 +1141,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -1222,8 +1174,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-2500 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
-GluGluToRadionToHHTo2B2Tau_M-3000_TuneCP5_narrow_13TeV_madgraph,100000,"
+",GluGluToRadionToHHTo2B2Tau M-2500 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
+GluGluToRadionToHHTo2B2Tau_M-3000_TuneCP5_narrow_13TeV_mcatnlo-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1238,8 +1190,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
@@ -1273,4 +1223,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToRadionToHHTo2B2Tau M-3000 TuneCP5 narrow 13TeV madgraph,Madgraph_2.6.5  Pythia8
+",GluGluToRadionToHHTo2B2Tau M-3000 TuneCP5 narrow 13TeV mcatnlo-pythia8,Madgraph_2.6.5  Pythia8
