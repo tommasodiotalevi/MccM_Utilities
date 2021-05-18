@@ -6,7 +6,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M250/v1/BulkGraviton_hh_narrow_M250_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M250/v1/BulkGraviton_hh_GF_HH_narrow_M250_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -55,7 +55,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M260/v1/BulkGraviton_hh_narrow_M260_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M260/v1/BulkGraviton_hh_GF_HH_narrow_M260_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -104,7 +104,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M270/v1/BulkGraviton_hh_narrow_M270_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M270/v1/BulkGraviton_hh_GF_HH_narrow_M270_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -153,7 +153,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M280/v1/BulkGraviton_hh_narrow_M280_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M280/v1/BulkGraviton_hh_GF_HH_narrow_M280_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -202,7 +202,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M300/v1/BulkGraviton_hh_narrow_M300_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M300/v1/BulkGraviton_hh_GF_HH_narrow_M300_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -251,7 +251,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M320/v1/BulkGraviton_hh_narrow_M320_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M320/v1/BulkGraviton_hh_GF_HH_narrow_M320_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -300,7 +300,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M350/v1/BulkGraviton_hh_narrow_M350_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M350/v1/BulkGraviton_hh_GF_HH_narrow_M350_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -349,7 +349,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M400/v1/BulkGraviton_hh_narrow_M400_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M400/v1/BulkGraviton_hh_GF_HH_narrow_M400_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -398,7 +398,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M450/v1/BulkGraviton_hh_narrow_M450_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M450/v1/BulkGraviton_hh_GF_HH_narrow_M450_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -447,7 +447,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M500/v1/BulkGraviton_hh_narrow_M500_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M500/v1/BulkGraviton_hh_GF_HH_narrow_M500_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -496,7 +496,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M550/v1/BulkGraviton_hh_narrow_M550_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M550/v1/BulkGraviton_hh_GF_HH_narrow_M550_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -545,7 +545,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M600/v1/BulkGraviton_hh_narrow_M600_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M600/v1/BulkGraviton_hh_GF_HH_narrow_M600_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -594,7 +594,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M650/v1/BulkGraviton_hh_narrow_M650_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M650/v1/BulkGraviton_hh_GF_HH_narrow_M650_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -643,7 +643,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M700/v1/BulkGraviton_hh_narrow_M700_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M700/v1/BulkGraviton_hh_GF_HH_narrow_M700_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -692,7 +692,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M750/v1/BulkGraviton_hh_narrow_M750_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M750/v1/BulkGraviton_hh_GF_HH_narrow_M750_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -741,7 +741,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M800/v1/BulkGraviton_hh_narrow_M800_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M800/v1/BulkGraviton_hh_GF_HH_narrow_M800_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -790,7 +790,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M850/v1/BulkGraviton_hh_narrow_M850_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M850/v1/BulkGraviton_hh_GF_HH_narrow_M850_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -839,7 +839,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M900/v1/BulkGraviton_hh_narrow_M900_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M900/v1/BulkGraviton_hh_GF_HH_narrow_M900_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -888,7 +888,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M1000/v1/BulkGraviton_hh_narrow_M1000_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M1000/v1/BulkGraviton_hh_GF_HH_narrow_M1000_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -937,7 +937,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M1250/v1/BulkGraviton_hh_narrow_M1250_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M1250/v1/BulkGraviton_hh_GF_HH_narrow_M1250_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -986,7 +986,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M1500/v1/BulkGraviton_hh_narrow_M1500_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M1500/v1/BulkGraviton_hh_GF_HH_narrow_M1500_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1035,7 +1035,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M1750/v1/BulkGraviton_hh_narrow_M1750_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M1750/v1/BulkGraviton_hh_GF_HH_narrow_M1750_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1084,7 +1084,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M2000/v1/BulkGraviton_hh_narrow_M2000_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M2000/v1/BulkGraviton_hh_GF_HH_narrow_M2000_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1133,7 +1133,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M2500/v1/BulkGraviton_hh_narrow_M2500_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M2500/v1/BulkGraviton_hh_GF_HH_narrow_M2500_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1182,7 +1182,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/8f5a3e8ffe6877d0a618eb0b9d8601c952cbf8f9/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_0/BulkGraviton_hh_narrow_M3000/v1/BulkGraviton_hh_narrow_M3000_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/madgraph/V5_2.6.5/GF_Spin_2/BulkGraviton_hh_GF_HH_narrow_M3000/v1/BulkGraviton_hh_GF_HH_narrow_M3000_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
