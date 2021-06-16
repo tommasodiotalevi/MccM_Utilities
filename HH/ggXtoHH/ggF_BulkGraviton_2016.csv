@@ -1,5 +1,5 @@
 Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
-GluGluToBulkGravitonToHHTo2B2Tau_M-250_TuneCP5_narrow_13TeV-mcatnlo-pythia8,184000,"
+GluGluToBulkGravitonToHHTo2B2Tau_M-250_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,184000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -16,6 +16,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -26,6 +27,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -40,6 +42,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -47,8 +50,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-250 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-260_TuneCP5_narrow_13TeV-mcatnlo-pythia8,184000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-250 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-260_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,184000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -65,6 +68,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -75,6 +79,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -89,6 +94,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -96,8 +102,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-260 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-270_TuneCP5_narrow_13TeV-mcatnlo-pythia8,184000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-260 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-270_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,184000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -114,6 +120,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -124,6 +131,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -138,6 +146,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -145,8 +154,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-270 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-280_TuneCP5_narrow_13TeV-mcatnlo-pythia8,184000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-270 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-280_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,184000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -163,6 +172,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -173,6 +183,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -187,6 +198,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -194,8 +206,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-280 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-300_TuneCP5_narrow_13TeV-mcatnlo-pythia8,138000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-280 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-300_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,138000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -212,6 +224,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -222,6 +235,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -236,6 +250,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -243,8 +258,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-300 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-320_TuneCP5_narrow_13TeV-mcatnlo-pythia8,138000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-300 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-320_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,138000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -261,6 +276,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -271,6 +287,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -285,6 +302,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -292,8 +310,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-320 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-350_TuneCP5_narrow_13TeV-mcatnlo-pythia8,138000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-320 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-350_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,138000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -310,6 +328,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -320,6 +339,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -334,6 +354,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -341,8 +362,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-350 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-400_TuneCP5_narrow_13TeV-mcatnlo-pythia8,138000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-350 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-400_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,138000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -359,6 +380,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -369,6 +391,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -383,6 +406,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -390,8 +414,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-400 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-450_TuneCP5_narrow_13TeV-mcatnlo-pythia8,138000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-400 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-450_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,138000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -408,6 +432,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -418,6 +443,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -432,6 +458,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -439,8 +466,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-450 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-500_TuneCP5_narrow_13TeV-mcatnlo-pythia8,138000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-450 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-500_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,138000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -457,6 +484,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -467,6 +495,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -481,6 +510,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -488,8 +518,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-500 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-550_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-500 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-550_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -506,6 +536,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -516,6 +547,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -530,6 +562,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -537,8 +570,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-550 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-600_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-550 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-600_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -555,6 +588,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -565,6 +599,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -579,6 +614,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -586,8 +622,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-600 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-650_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-600 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-650_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -604,6 +640,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -614,6 +651,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -628,6 +666,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -635,8 +674,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-650 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-700_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-650 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-700_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -653,6 +692,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -663,6 +703,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -677,6 +718,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -684,8 +726,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-700 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-750_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-700 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-750_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -702,6 +744,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -712,6 +755,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -726,6 +770,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -733,8 +778,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-750 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-800_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-750 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-800_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -751,6 +796,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -761,6 +807,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -775,6 +822,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -782,8 +830,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-800 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-850_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-800 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-850_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -800,6 +848,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -810,6 +859,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -824,6 +874,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -831,8 +882,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-850 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-900_TuneCP5_narrow_13TeV-mcatnlo-pythia8,92000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-850 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-900_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,92000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -849,6 +900,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -859,6 +911,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -873,6 +926,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -880,8 +934,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-900 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-1000_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-900 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-1000_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -898,6 +952,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -908,6 +963,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -922,6 +978,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -929,8 +986,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-1000 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-1250_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-1000 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-1250_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -947,6 +1004,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -957,6 +1015,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -971,6 +1030,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -978,8 +1038,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-1250 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-1500_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-1250 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-1500_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -996,6 +1056,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1006,6 +1067,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -1020,6 +1082,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -1027,8 +1090,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-1500 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-1750_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-1500 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-1750_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1045,6 +1108,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1055,6 +1119,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -1069,6 +1134,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -1076,8 +1142,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-1750 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-2000_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-1750 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-2000_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1094,6 +1160,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1104,6 +1171,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -1118,6 +1186,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -1125,8 +1194,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-2000 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-2500_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-2000 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-2500_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1143,6 +1212,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1153,6 +1223,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -1167,6 +1238,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -1174,8 +1246,8 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-2500 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
-GluGluToBulkGravitonToHHTo2B2Tau_M-3000_TuneCP5_narrow_13TeV-mcatnlo-pythia8,46000,"
+",GluGluToBulkGravitonToHHTo2B2Tau M-2500 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo2B2Tau_M-3000_TuneCP5_PSWeights_narrow_13TeV-mcatnlo-pythia8,46000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1192,6 +1264,7 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
 
 generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          maxEventsToPrint = cms.untracked.int32(1),
@@ -1202,6 +1275,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          PythiaParameters = cms.PSet(
                                                      pythia8CommonSettingsBlock,
                                                      pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                                                                                                                                                                                                                 
     '25:m0 = 125.0',
@@ -1216,6 +1290,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
                                                                                  'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
                                                                                  'processParameters'
                                                                                  )
                                                      )
@@ -1223,4 +1298,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGluToBulkGravitonToHHTo2B2Tau M-3000 TuneCP5 narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
+",GluGluToBulkGravitonToHHTo2B2Tau M-3000 TuneCP5 PSWeights narrow 13TeV-mcatnlo-pythia8,Madgraph_2.6.5  Pythia8,0,0.3,120
