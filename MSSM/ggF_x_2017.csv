@@ -45,4 +45,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )
                          
 ProductionFilterSequence = cms.Sequence(generator)
-",MSSMGluGluTohToMuMu MA-125 Tanb-30 13TeV-powheg-pythia8,Powheg_V2  Pythia8,0,0.001,30
+",MSSMGluGluTohToMuMu MA-125 Tanb-30 13TeV-powheg-pythia8,Powheg_V2  Pythia8,0,2,105
