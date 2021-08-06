@@ -1,5 +1,5 @@
 Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
-MSSMGluGluToBBhToMuMu_MA-125_Tanb-30_TuneCUETP8M1_13TeV-powheg-pythia8,10000,"
+MSSMGluGluToBBhToMuMu_MA-125_Tanb-30_TuneCP5_13TeV-powheg-pythia8,10000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -50,4 +50,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          )
                          
 ProductionFilterSequence = cms.Sequence(generator)
-",MSSMGluGluToBBhToMuMu MA-125 Tanb-30 TuneCUETP8M1 13TeV-powheg-pythia8,Powheg_V2  Pythia8,0,0.001,30
+",MSSMGluGluToBBhToMuMu MA-125 Tanb-30 TuneCP5 13TeV-powheg-pythia8,Powheg_V2  Pythia8,0,0.001,30

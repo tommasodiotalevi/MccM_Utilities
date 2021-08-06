@@ -1,5 +1,5 @@
-prepid,fragment
-HIG-RunIISummer20UL16wmLHEGENAPV-01518,"
+prepid,Dataset name,fragment
+HIG-RunIISummer20UL16wmLHEGENAPV-01518,MSSMGluGluToBBAToMuMu_MA-130_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -51,7 +51,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01519,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01519,MSSMGluGluToBBAToMuMu_MA-130_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -103,7 +103,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01520,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01520,MSSMGluGluToBBAToMuMu_MA-130_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -155,7 +155,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01521,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01521,MSSMGluGluToBBAToMuMu_MA-130_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -207,7 +207,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01522,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01522,MSSMGluGluToBBAToMuMu_MA-130_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -259,7 +259,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01523,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01523,MSSMGluGluToBBAToMuMu_MA-130_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -311,7 +311,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01524,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01524,MSSMGluGluToBBAToMuMu_MA-130_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -363,7 +363,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01525,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01525,MSSMGluGluToBBAToMuMu_MA-130_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -415,7 +415,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01526,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01526,MSSMGluGluToBBAToMuMu_MA-130_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -467,7 +467,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01527,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01527,MSSMGluGluToBBAToMuMu_MA-130_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -519,7 +519,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01528,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01528,MSSMGluGluToBBAToMuMu_MA-150_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -571,7 +571,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01529,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01529,MSSMGluGluToBBAToMuMu_MA-150_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -623,7 +623,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01530,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01530,MSSMGluGluToBBAToMuMu_MA-150_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -675,7 +675,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01531,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01531,MSSMGluGluToBBAToMuMu_MA-150_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -727,7 +727,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01532,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01532,MSSMGluGluToBBAToMuMu_MA-150_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -779,7 +779,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01533,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01533,MSSMGluGluToBBAToMuMu_MA-150_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -831,7 +831,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01534,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01534,MSSMGluGluToBBAToMuMu_MA-150_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -883,7 +883,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01535,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01535,MSSMGluGluToBBAToMuMu_MA-150_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -935,7 +935,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01536,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01536,MSSMGluGluToBBAToMuMu_MA-150_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -987,7 +987,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01537,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01537,MSSMGluGluToBBAToMuMu_MA-150_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1039,7 +1039,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01538,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01538,MSSMGluGluToBBAToMuMu_MA-170_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1091,7 +1091,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01539,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01539,MSSMGluGluToBBAToMuMu_MA-170_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1143,7 +1143,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01540,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01540,MSSMGluGluToBBAToMuMu_MA-170_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1195,7 +1195,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01541,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01541,MSSMGluGluToBBAToMuMu_MA-170_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1247,7 +1247,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01542,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01542,MSSMGluGluToBBAToMuMu_MA-170_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1299,7 +1299,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01543,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01543,MSSMGluGluToBBAToMuMu_MA-170_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1351,7 +1351,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01544,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01544,MSSMGluGluToBBAToMuMu_MA-170_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1403,7 +1403,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01545,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01545,MSSMGluGluToBBAToMuMu_MA-170_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1455,7 +1455,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01546,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01546,MSSMGluGluToBBAToMuMu_MA-170_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1507,7 +1507,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01547,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01547,MSSMGluGluToBBAToMuMu_MA-170_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1559,7 +1559,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01548,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01548,MSSMGluGluToBBAToMuMu_MA-200_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1611,7 +1611,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01549,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01549,MSSMGluGluToBBAToMuMu_MA-200_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1663,7 +1663,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01550,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01550,MSSMGluGluToBBAToMuMu_MA-200_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1715,7 +1715,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01551,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01551,MSSMGluGluToBBAToMuMu_MA-200_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1767,7 +1767,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01552,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01552,MSSMGluGluToBBAToMuMu_MA-200_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1819,7 +1819,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01553,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01553,MSSMGluGluToBBAToMuMu_MA-200_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1871,7 +1871,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01554,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01554,MSSMGluGluToBBAToMuMu_MA-200_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1923,7 +1923,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01555,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01555,MSSMGluGluToBBAToMuMu_MA-200_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1975,7 +1975,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01556,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01556,MSSMGluGluToBBAToMuMu_MA-200_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2027,7 +2027,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01557,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01557,MSSMGluGluToBBAToMuMu_MA-200_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2079,7 +2079,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01558,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01558,MSSMGluGluToBBAToMuMu_MA-250_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2131,7 +2131,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01559,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01559,MSSMGluGluToBBAToMuMu_MA-250_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2183,7 +2183,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01560,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01560,MSSMGluGluToBBAToMuMu_MA-250_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2235,7 +2235,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01561,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01561,MSSMGluGluToBBAToMuMu_MA-250_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2287,7 +2287,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01562,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01562,MSSMGluGluToBBAToMuMu_MA-250_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2339,7 +2339,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01563,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01563,MSSMGluGluToBBAToMuMu_MA-250_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2391,7 +2391,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01564,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01564,MSSMGluGluToBBAToMuMu_MA-250_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2443,7 +2443,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01565,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01565,MSSMGluGluToBBAToMuMu_MA-250_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2495,7 +2495,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01566,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01566,MSSMGluGluToBBAToMuMu_MA-250_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2547,7 +2547,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01567,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01567,MSSMGluGluToBBAToMuMu_MA-250_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2599,7 +2599,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01568,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01568,MSSMGluGluToBBAToMuMu_MA-300_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2651,7 +2651,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01569,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01569,MSSMGluGluToBBAToMuMu_MA-300_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2703,7 +2703,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01570,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01570,MSSMGluGluToBBAToMuMu_MA-300_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2755,7 +2755,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01571,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01571,MSSMGluGluToBBAToMuMu_MA-300_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2807,7 +2807,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01572,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01572,MSSMGluGluToBBAToMuMu_MA-300_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2859,7 +2859,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01573,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01573,MSSMGluGluToBBAToMuMu_MA-300_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2911,7 +2911,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01574,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01574,MSSMGluGluToBBAToMuMu_MA-300_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2963,7 +2963,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01575,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01575,MSSMGluGluToBBAToMuMu_MA-300_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3015,7 +3015,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01576,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01576,MSSMGluGluToBBAToMuMu_MA-300_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3067,7 +3067,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01577,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01577,MSSMGluGluToBBAToMuMu_MA-300_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3119,7 +3119,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01578,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01578,MSSMGluGluToBBAToMuMu_MA-350_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3171,7 +3171,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01579,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01579,MSSMGluGluToBBAToMuMu_MA-350_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3223,7 +3223,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01580,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01580,MSSMGluGluToBBAToMuMu_MA-350_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3275,7 +3275,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01581,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01581,MSSMGluGluToBBAToMuMu_MA-350_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3327,7 +3327,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01582,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01582,MSSMGluGluToBBAToMuMu_MA-350_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3379,7 +3379,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01583,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01583,MSSMGluGluToBBAToMuMu_MA-350_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3431,7 +3431,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01584,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01584,MSSMGluGluToBBAToMuMu_MA-350_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3483,7 +3483,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01585,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01585,MSSMGluGluToBBAToMuMu_MA-350_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3535,7 +3535,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01586,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01586,MSSMGluGluToBBAToMuMu_MA-350_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3587,7 +3587,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01587,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01587,MSSMGluGluToBBAToMuMu_MA-350_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3639,7 +3639,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01588,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01588,MSSMGluGluToBBAToMuMu_MA-400_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3691,7 +3691,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01589,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01589,MSSMGluGluToBBAToMuMu_MA-400_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3743,7 +3743,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01590,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01590,MSSMGluGluToBBAToMuMu_MA-400_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3795,7 +3795,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01591,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01591,MSSMGluGluToBBAToMuMu_MA-400_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3847,7 +3847,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01592,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01592,MSSMGluGluToBBAToMuMu_MA-400_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3899,7 +3899,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01593,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01593,MSSMGluGluToBBAToMuMu_MA-400_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3951,7 +3951,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01594,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01594,MSSMGluGluToBBAToMuMu_MA-400_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4003,7 +4003,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01595,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01595,MSSMGluGluToBBAToMuMu_MA-400_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4055,7 +4055,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01596,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01596,MSSMGluGluToBBAToMuMu_MA-400_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4107,7 +4107,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01597,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01597,MSSMGluGluToBBAToMuMu_MA-400_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4159,7 +4159,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01598,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01598,MSSMGluGluToBBAToMuMu_MA-450_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4211,7 +4211,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01599,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01599,MSSMGluGluToBBAToMuMu_MA-450_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4263,7 +4263,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01600,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01600,MSSMGluGluToBBAToMuMu_MA-450_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4315,7 +4315,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01601,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01601,MSSMGluGluToBBAToMuMu_MA-450_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4367,7 +4367,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01602,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01602,MSSMGluGluToBBAToMuMu_MA-450_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4419,7 +4419,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01603,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01603,MSSMGluGluToBBAToMuMu_MA-450_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4471,7 +4471,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01604,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01604,MSSMGluGluToBBAToMuMu_MA-450_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4523,7 +4523,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01605,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01605,MSSMGluGluToBBAToMuMu_MA-450_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4575,7 +4575,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01606,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01606,MSSMGluGluToBBAToMuMu_MA-450_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4627,7 +4627,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01607,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01607,MSSMGluGluToBBAToMuMu_MA-450_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4679,7 +4679,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01608,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01608,MSSMGluGluToBBAToMuMu_MA-500_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4731,7 +4731,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01609,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01609,MSSMGluGluToBBAToMuMu_MA-500_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4783,7 +4783,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01610,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01610,MSSMGluGluToBBAToMuMu_MA-500_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4835,7 +4835,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01611,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01611,MSSMGluGluToBBAToMuMu_MA-500_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4887,7 +4887,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01612,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01612,MSSMGluGluToBBAToMuMu_MA-500_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4939,7 +4939,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01613,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01613,MSSMGluGluToBBAToMuMu_MA-500_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4991,7 +4991,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01614,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01614,MSSMGluGluToBBAToMuMu_MA-500_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5043,7 +5043,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01615,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01615,MSSMGluGluToBBAToMuMu_MA-500_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5095,7 +5095,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01616,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01616,MSSMGluGluToBBAToMuMu_MA-500_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5147,7 +5147,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01617,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01617,MSSMGluGluToBBAToMuMu_MA-500_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5199,7 +5199,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01618,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01618,MSSMGluGluToBBAToMuMu_MA-600_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5251,7 +5251,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01619,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01619,MSSMGluGluToBBAToMuMu_MA-600_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5303,7 +5303,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01620,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01620,MSSMGluGluToBBAToMuMu_MA-600_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5355,7 +5355,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01621,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01621,MSSMGluGluToBBAToMuMu_MA-600_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5407,7 +5407,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01622,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01622,MSSMGluGluToBBAToMuMu_MA-600_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5459,7 +5459,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01623,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01623,MSSMGluGluToBBAToMuMu_MA-600_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5511,7 +5511,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01624,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01624,MSSMGluGluToBBAToMuMu_MA-600_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5563,7 +5563,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01625,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01625,MSSMGluGluToBBAToMuMu_MA-600_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5615,7 +5615,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01626,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01626,MSSMGluGluToBBAToMuMu_MA-600_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5667,7 +5667,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01627,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01627,MSSMGluGluToBBAToMuMu_MA-600_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5719,7 +5719,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01628,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01628,MSSMGluGluToBBAToMuMu_MA-700_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5771,7 +5771,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01629,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01629,MSSMGluGluToBBAToMuMu_MA-700_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5823,7 +5823,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01630,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01630,MSSMGluGluToBBAToMuMu_MA-700_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5875,7 +5875,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01631,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01631,MSSMGluGluToBBAToMuMu_MA-700_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5927,7 +5927,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01632,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01632,MSSMGluGluToBBAToMuMu_MA-700_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5979,7 +5979,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01633,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01633,MSSMGluGluToBBAToMuMu_MA-700_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6031,7 +6031,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01634,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01634,MSSMGluGluToBBAToMuMu_MA-700_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6083,7 +6083,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01635,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01635,MSSMGluGluToBBAToMuMu_MA-700_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6135,7 +6135,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01636,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01636,MSSMGluGluToBBAToMuMu_MA-700_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6187,7 +6187,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01637,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01637,MSSMGluGluToBBAToMuMu_MA-700_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6239,7 +6239,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01638,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01638,MSSMGluGluToBBAToMuMu_MA-800_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6291,7 +6291,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01639,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01639,MSSMGluGluToBBAToMuMu_MA-800_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6343,7 +6343,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01640,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01640,MSSMGluGluToBBAToMuMu_MA-800_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6395,7 +6395,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01641,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01641,MSSMGluGluToBBAToMuMu_MA-800_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6447,7 +6447,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01642,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01642,MSSMGluGluToBBAToMuMu_MA-800_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6499,7 +6499,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01643,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01643,MSSMGluGluToBBAToMuMu_MA-800_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6551,7 +6551,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01644,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01644,MSSMGluGluToBBAToMuMu_MA-800_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6603,7 +6603,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01645,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01645,MSSMGluGluToBBAToMuMu_MA-800_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6655,7 +6655,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01646,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01646,MSSMGluGluToBBAToMuMu_MA-800_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6707,7 +6707,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01647,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01647,MSSMGluGluToBBAToMuMu_MA-800_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6759,7 +6759,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01648,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01648,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6811,7 +6811,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01649,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01649,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6863,7 +6863,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01650,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01650,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6915,7 +6915,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01651,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01651,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6967,7 +6967,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01652,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01652,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7019,7 +7019,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01653,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01653,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7071,7 +7071,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01654,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01654,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7123,7 +7123,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01655,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01655,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7175,7 +7175,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01656,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01656,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7227,7 +7227,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01657,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01657,MSSMGluGluToBBAToMuMu_MA-1000_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7279,7 +7279,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01658,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01658,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7331,7 +7331,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01659,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01659,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7383,7 +7383,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01660,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01660,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7435,7 +7435,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01661,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01661,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7487,7 +7487,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01662,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01662,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7539,7 +7539,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01663,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01663,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7591,7 +7591,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01664,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01664,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7643,7 +7643,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01665,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01665,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7695,7 +7695,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01666,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01666,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7747,7 +7747,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01667,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01667,MSSMGluGluToBBAToMuMu_MA-1200_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7799,7 +7799,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01668,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01668,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-2_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7851,7 +7851,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01669,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01669,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-5_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7903,7 +7903,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01670,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01670,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-10_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7955,7 +7955,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01671,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01671,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-15_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8007,7 +8007,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01672,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01672,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-20_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8059,7 +8059,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01673,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01673,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-25_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8111,7 +8111,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01674,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01674,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-30_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8163,7 +8163,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01675,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01675,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-40_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8215,7 +8215,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01676,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01676,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-50_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8267,7 +8267,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                          
 ProductionFilterSequence = cms.Sequence(generator)
 "
-HIG-RunIISummer20UL16wmLHEGENAPV-01677,"
+HIG-RunIISummer20UL16wmLHEGENAPV-01677,MSSMGluGluToBBAToMuMu_MA-1500_Tanb-60_TuneCP5_13TeV-powheg-pythia8,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
