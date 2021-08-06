@@ -32,7 +32,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 168.054992676',
     '25:mWidth = 0.0661422014236',
@@ -84,7 +84,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 146.949996948',
     '25:mWidth = 0.0394840016961',
@@ -136,7 +136,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 138.259002686',
     '25:mWidth = 0.150876000524',
@@ -188,7 +188,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 135.259002686',
     '25:mWidth = 0.350183993578',
@@ -240,7 +240,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 133.774002075',
     '25:mWidth = 0.641044974327',
@@ -292,7 +292,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 132.904006958',
     '25:mWidth = 1.02480995655',
@@ -344,7 +344,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 132.337997437',
     '25:mWidth = 1.50034999847',
@@ -396,7 +396,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 131.649002075',
     '25:mWidth = 2.71362996101',
@@ -448,7 +448,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 131.231002808',
     '25:mWidth = 4.24649000168',
@@ -500,7 +500,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 130.917999268',
     '25:mWidth = 6.06418991089',
@@ -552,7 +552,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 181.723999023',
     '25:mWidth = 0.131981000304',
@@ -604,7 +604,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 161.192993164',
     '25:mWidth = 0.0708305984735',
@@ -656,7 +656,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 153.996994019',
     '25:mWidth = 0.244626998901',
@@ -708,7 +708,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 152.06300354',
     '25:mWidth = 0.563396990299',
@@ -760,7 +760,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 151.287002563',
     '25:mWidth = 1.00103998184',
@@ -812,7 +812,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 150.899993896',
     '25:mWidth = 1.54568004608',
@@ -864,7 +864,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 150.677001953',
     '25:mWidth = 2.18787002563',
@@ -916,7 +916,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 150.434005737',
     '25:mWidth = 3.73309993744',
@@ -968,7 +968,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 150.294006348',
     '25:mWidth = 5.58060979843',
@@ -1020,7 +1020,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 150.182998657',
     '25:mWidth = 7.68337011337',
@@ -1072,7 +1072,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 197.024002075',
     '25:mWidth = 0.211459994316',
@@ -1124,7 +1124,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 178.205993652',
     '25:mWidth = 0.109214000404',
@@ -1176,7 +1176,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 172.598007202',
     '25:mWidth = 0.304174005985',
@@ -1228,7 +1228,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 171.294998169',
     '25:mWidth = 0.661177992821',
@@ -1280,7 +1280,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 170.802993774',
     '25:mWidth = 1.14985001087',
@@ -1332,7 +1332,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 170.563995361',
     '25:mWidth = 1.75666999817',
@@ -1384,7 +1384,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 170.427993774',
     '25:mWidth = 2.47140002251',
@@ -1436,7 +1436,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 170.276992798',
     '25:mWidth = 4.19003009796',
@@ -1488,7 +1488,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 170.179992676',
     '25:mWidth = 6.24448013306',
@@ -1540,7 +1540,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 170.089996338',
     '25:mWidth = 8.58310985565',
@@ -1592,7 +1592,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 222.065994263',
     '25:mWidth = 0.287649989128',
@@ -1644,7 +1644,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 205.908996582',
     '25:mWidth = 0.138319000602',
@@ -1696,7 +1696,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 201.766998291',
     '25:mWidth = 0.365453988314',
@@ -1748,7 +1748,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.880996704',
     '25:mWidth = 0.774843990803',
@@ -1800,7 +1800,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.554992676',
     '25:mWidth = 1.33433997631',
@@ -1852,7 +1852,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.399002075',
     '25:mWidth = 2.02886009216',
@@ -1904,7 +1904,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.309005737',
     '25:mWidth = 2.84688997269',
@@ -1956,7 +1956,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.20300293',
     '25:mWidth = 4.81441020966',
@@ -2008,7 +2008,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.125',
     '25:mWidth = 7.16752004623',
@@ -2060,7 +2060,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 200.039993286',
     '25:mWidth = 9.84778022766',
@@ -2112,7 +2112,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 267.109985352',
     '25:mWidth = 0.357661992311',
@@ -2164,7 +2164,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 254.195999146',
     '25:mWidth = 0.253506988287',
@@ -2216,7 +2216,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 251.264007568',
     '25:mWidth = 0.476164013147',
@@ -2268,7 +2268,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.662002563',
     '25:mWidth = 0.960931003094',
@@ -2320,7 +2320,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.442993164',
     '25:mWidth = 1.63338005543',
@@ -2372,7 +2372,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.335998535',
     '25:mWidth = 2.46963000298',
@@ -2424,7 +2424,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.274002075',
     '25:mWidth = 3.45473003387',
@@ -2476,7 +2476,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.192993164',
     '25:mWidth = 5.82519006729',
@@ -2528,7 +2528,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.119995117',
     '25:mWidth = 8.66244029999',
@@ -2580,7 +2580,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 250.027999878',
     '25:mWidth = 11.8971996307',
@@ -2632,7 +2632,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 313.971984863',
     '25:mWidth = 0.626352012157',
@@ -2684,7 +2684,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 303.351013184',
     '25:mWidth = 0.462536990643',
@@ -2736,7 +2736,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 301.095001221',
     '25:mWidth = 0.683713972569',
@@ -2788,7 +2788,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.638000488',
     '25:mWidth = 1.22947001457',
@@ -2840,7 +2840,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.473999023',
     '25:mWidth = 2.00130009651',
@@ -2892,7 +2892,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.394012451',
     '25:mWidth = 2.96831989288',
@@ -2944,7 +2944,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.343994141',
     '25:mWidth = 4.11166000366',
@@ -2996,7 +2996,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.273010254',
     '25:mWidth = 6.86936998367',
@@ -3048,7 +3048,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.195007324',
     '25:mWidth = 10.1752004623',
@@ -3100,7 +3100,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 300.083007812',
     '25:mWidth = 13.9477996826',
@@ -3152,7 +3152,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 362.005004883',
     '25:mWidth = 1.2400200367',
@@ -3204,7 +3204,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 352.648010254',
     '25:mWidth = 0.803728997707',
@@ -3256,7 +3256,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 350.743988037',
     '25:mWidth = 1.08688998222',
@@ -3308,7 +3308,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 350.367004395',
     '25:mWidth = 1.71463000774',
@@ -3360,7 +3360,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 350.230987549',
     '25:mWidth = 2.59442996979',
@@ -3412,7 +3412,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 350.162994385',
     '25:mWidth = 3.69516992569',
@@ -3464,7 +3464,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 350.118988037',
     '25:mWidth = 4.99636983871',
@@ -3516,7 +3516,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 350.04901123',
     '25:mWidth = 8.13572025299',
@@ -3568,7 +3568,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 349.964996338',
     '25:mWidth = 11.9013004303',
@@ -3620,7 +3620,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 349.841003418',
     '25:mWidth = 16.2021007538',
@@ -3672,7 +3672,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 409.536987305',
     '25:mWidth = 3.13513994217',
@@ -3724,7 +3724,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 401.910003662',
     '25:mWidth = 1.41752004623',
@@ -3776,7 +3776,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 400.37399292',
     '25:mWidth = 1.61880004406',
@@ -3828,7 +3828,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 400.075012207',
     '25:mWidth = 2.30296993256',
@@ -3880,7 +3880,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 399.967987061',
     '25:mWidth = 3.28173995018',
@@ -3932,7 +3932,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 399.911987305',
     '25:mWidth = 4.51097011566',
@@ -3984,7 +3984,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 399.875',
     '25:mWidth = 5.96578979492',
@@ -4036,7 +4036,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 399.805999756',
     '25:mWidth = 9.47824001312',
@@ -4088,7 +4088,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 399.713989258',
     '25:mWidth = 13.6939001083',
@@ -4140,7 +4140,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 399.571990967',
     '25:mWidth = 18.5114002228',
@@ -4192,7 +4192,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 458.139007568',
     '25:mWidth = 5.4707198143',
@@ -4244,7 +4244,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 451.442993164',
     '25:mWidth = 2.89497995377',
@@ -4296,7 +4296,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 450.131988525',
     '25:mWidth = 2.87064003944',
@@ -4348,7 +4348,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.880004883',
     '25:mWidth = 3.56398010254',
@@ -4400,7 +4400,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.787994385',
     '25:mWidth = 4.61827993393',
@@ -4452,7 +4452,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.736999512',
     '25:mWidth = 5.96190023422',
@@ -4504,7 +4504,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.697998047',
     '25:mWidth = 7.56078004837',
@@ -4556,7 +4556,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.617004395',
     '25:mWidth = 11.4340000153',
@@ -4608,7 +4608,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.50100708',
     '25:mWidth = 16.0914993286',
@@ -4660,7 +4660,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 449.324005127',
     '25:mWidth = 21.4197006226',
@@ -4712,7 +4712,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 507.049987793',
     '25:mWidth = 7.69188976288',
@@ -4764,7 +4764,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 501.234985352',
     '25:mWidth = 4.19756984711',
@@ -4816,7 +4816,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 500.106994629',
     '25:mWidth = 4.05971002579',
@@ -4868,7 +4868,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.890991211',
     '25:mWidth = 4.79330015182',
@@ -4920,7 +4920,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.809997559',
     '25:mWidth = 5.93655014038',
@@ -4972,7 +4972,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.761993408',
     '25:mWidth = 7.40135002136',
@@ -5024,7 +5024,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.721008301',
     '25:mWidth = 9.14785003662',
@@ -5076,7 +5076,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.630004883',
     '25:mWidth = 13.3839998245',
@@ -5128,7 +5128,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.496002197',
     '25:mWidth = 18.4825992584',
@@ -5180,7 +5180,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 499.289001465',
     '25:mWidth = 24.3190994263',
@@ -5232,7 +5232,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 606.106018066',
     '25:mWidth = 11.460100174',
@@ -5284,7 +5284,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 601.289001465',
     '25:mWidth = 6.4251499176',
@@ -5336,7 +5336,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 600.299987793',
     '25:mWidth = 6.13122987747',
@@ -5388,7 +5388,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 600.094970703',
     '25:mWidth = 6.96460008621',
@@ -5440,7 +5440,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 600.008972168',
     '25:mWidth = 8.29261016846',
@@ -5492,7 +5492,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 599.953979492',
     '25:mWidth = 10.0011997223',
@@ -5544,7 +5544,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 599.903991699',
     '25:mWidth = 12.0413999557',
@@ -5596,7 +5596,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 599.789001465',
     '25:mWidth = 16.9946994781',
@@ -5648,7 +5648,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 599.619018555',
     '25:mWidth = 22.9622993469',
@@ -5700,7 +5700,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 599.359985352',
     '25:mWidth = 29.7999000549',
@@ -5752,7 +5752,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 704.943969727',
     '25:mWidth = 14.6986999512',
@@ -5804,7 +5804,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 701.034973145',
     '25:mWidth = 8.42551040649',
@@ -5856,7 +5856,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 700.219970703',
     '25:mWidth = 8.05515956879',
@@ -5908,7 +5908,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 700.04699707',
     '25:mWidth = 9.00813007355',
@@ -5960,7 +5960,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 699.969970703',
     '25:mWidth = 10.5269002914',
@@ -6012,7 +6012,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 699.914001465',
     '25:mWidth = 12.4795999527',
@@ -6064,7 +6064,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 699.861022949',
     '25:mWidth = 14.810500145',
@@ -6116,7 +6116,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 699.728027344',
     '25:mWidth = 20.4696998596',
@@ -6168,7 +6168,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 699.526000977',
     '25:mWidth = 27.289899826',
@@ -6220,7 +6220,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 699.21697998',
     '25:mWidth = 35.1092987061',
@@ -6272,7 +6272,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 804.077026367',
     '25:mWidth = 17.6781997681',
@@ -6324,7 +6324,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 800.846008301',
     '25:mWidth = 10.3087997437',
@@ -6376,7 +6376,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 800.15802002',
     '25:mWidth = 9.88471984863',
@@ -6428,7 +6428,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 800.007995605',
     '25:mWidth = 10.9596996307',
@@ -6480,7 +6480,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 799.935974121',
     '25:mWidth = 12.6674003601',
@@ -6532,7 +6532,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 799.880004883',
     '25:mWidth = 14.8605003357',
@@ -6584,7 +6584,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 799.822021484',
     '25:mWidth = 17.4771003723',
@@ -6636,7 +6636,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 799.671020508',
     '25:mWidth = 23.8293991089',
@@ -6688,7 +6688,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 799.437988281',
     '25:mWidth = 31.4869003296',
@@ -6740,7 +6740,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 799.07800293',
     '25:mWidth = 40.2708015442',
@@ -6792,7 +6792,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1002.84002686',
     '25:mWidth = 23.1996002197',
@@ -6844,7 +6844,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1000.58001709',
     '25:mWidth = 13.8654003143',
@@ -6896,7 +6896,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1000.07000732',
     '25:mWidth = 13.3586997986',
@@ -6948,7 +6948,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 999.945007324',
     '25:mWidth = 14.6746997833',
@@ -7000,7 +7000,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 999.87902832',
     '25:mWidth = 16.7516002655',
@@ -7052,7 +7052,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 999.818969727',
     '25:mWidth = 19.4132995605',
@@ -7104,7 +7104,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 999.75',
     '25:mWidth = 22.5867996216',
@@ -7156,7 +7156,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 999.562011719',
     '25:mWidth = 30.2896003723',
@@ -7208,7 +7208,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 999.265991211',
     '25:mWidth = 39.5791015625',
@@ -7260,7 +7260,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 998.807006836',
     '25:mWidth = 50.2439002991',
@@ -7312,7 +7312,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1202.01000977',
     '25:mWidth = 28.3960990906',
@@ -7364,7 +7364,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1200.39001465',
     '25:mWidth = 17.2569007874',
@@ -7416,7 +7416,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.98999023',
     '25:mWidth = 16.6774997711',
@@ -7468,7 +7468,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.89001465',
     '25:mWidth = 18.2266998291',
@@ -7520,7 +7520,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.82995605',
     '25:mWidth = 20.6601009369',
@@ -7572,7 +7572,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.76000977',
     '25:mWidth = 23.7745990753',
@@ -7624,7 +7624,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.68005371',
     '25:mWidth = 27.4860992432',
@@ -7676,7 +7676,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.45996094',
     '25:mWidth = 36.4943008423',
@@ -7728,7 +7728,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1199.09997559',
     '25:mWidth = 47.3611984253',
@@ -7780,7 +7780,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1198.54003906',
     '25:mWidth = 59.8446006775',
@@ -7832,7 +7832,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1501.07995605',
     '25:mWidth = 35.8452987671',
@@ -7884,7 +7884,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1500.17004395',
     '25:mWidth = 22.1681995392',
@@ -7936,7 +7936,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1499.90002441',
     '25:mWidth = 21.4839000702',
@@ -7988,7 +7988,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1499.81994629',
     '25:mWidth = 23.3654003143',
@@ -8040,7 +8040,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1499.75',
     '25:mWidth = 26.3083000183',
@@ -8092,7 +8092,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1499.67004395',
     '25:mWidth = 30.0701007843',
@@ -8144,7 +8144,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1499.57995605',
     '25:mWidth = 34.5508995056',
@@ -8196,7 +8196,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1499.30004883',
     '25:mWidth = 45.4239997864',
@@ -8248,7 +8248,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1498.84997559',
     '25:mWidth = 58.5424995422',
@@ -8300,7 +8300,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 1498.15002441',
     '25:mWidth = 73.619102478',

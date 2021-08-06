@@ -32,7 +32,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
                             pythia8PSweightsSettingsBlock,
                             processParameters = cms.vstring(
                                                                                                                                                                                                                            
-    'TimeShower:nPartonsInBorn = 2', #number of coloured particles (before resonance decays) in born matrix element
+    'POWHEG:nFinal = 3',
     'SLHA:useDecayTable = off',
     '25:m0 = 121.861000061',
     '25:mWidth = 1.03110003471',
