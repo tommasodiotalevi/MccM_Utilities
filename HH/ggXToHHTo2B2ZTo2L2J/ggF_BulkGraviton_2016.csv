@@ -14,8 +14,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -77,8 +75,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -142,8 +138,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -205,8 +199,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -270,8 +262,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -333,8 +323,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -398,8 +386,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -461,8 +447,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -526,8 +510,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -589,8 +571,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -654,8 +634,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -717,8 +695,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -782,8 +758,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -845,8 +819,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -910,8 +882,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -973,8 +943,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -1038,8 +1006,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -1101,8 +1067,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
@@ -1166,8 +1130,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -1230,8 +1192,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
 )
 
 
-import FWCore.ParameterSet.Config as cms
-
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
@@ -1293,8 +1253,6 @@ externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
 )
 
-
-import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
 from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
