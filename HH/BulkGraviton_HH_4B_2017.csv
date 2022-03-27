@@ -1,0 +1,547 @@
+Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
+GluGluToBulkGravitonToHHTo4B_M-400_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M400/v1/BulkGraviton_hh_GF_HH_narrow_M400_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 400 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-450_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M450/v1/BulkGraviton_hh_GF_HH_narrow_M450_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 450 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-500_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M500/v1/BulkGraviton_hh_GF_HH_narrow_M500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 500 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-550_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M550/v1/BulkGraviton_hh_GF_HH_narrow_M550_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 550 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-600_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M600/v1/BulkGraviton_hh_GF_HH_narrow_M600_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 600 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-650_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M650/v1/BulkGraviton_hh_GF_HH_narrow_M650_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 650 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-800_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M800/v1/BulkGraviton_hh_GF_HH_narrow_M800_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 800 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-1000_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M1000/v1/BulkGraviton_hh_GF_HH_narrow_M1000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 1000 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-1250_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M1250/v1/BulkGraviton_hh_GF_HH_narrow_M1250_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 1250 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-1500_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M1500/v1/BulkGraviton_hh_GF_HH_narrow_M1500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 1500 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-1750_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M1750/v1/BulkGraviton_hh_GF_HH_narrow_M1750_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 1750 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-2000_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M2000/v1/BulkGraviton_hh_GF_HH_narrow_M2000_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 2000 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToBulkGravitonToHHTo4B_M-2500_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/BulkGraviton_hh_GF_HH_narrow_M2500/v1/BulkGraviton_hh_GF_HH_narrow_M2500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-2/BulkGraviton_hh_narrow/BulkGraviton_hh_GF_HH_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu BulkGraviton production m_BG = 2500 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120

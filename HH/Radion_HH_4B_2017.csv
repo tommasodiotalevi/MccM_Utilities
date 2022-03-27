@@ -1,0 +1,505 @@
+Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
+GluGluToRadionToHHTo4B_M-260_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M260/v1/Radion_hh_narrow_M260_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 260 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-270_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M270/v1/Radion_hh_narrow_M270_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 270 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-280_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M280/v1/Radion_hh_narrow_M280_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 280 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-320_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M320/v1/Radion_hh_narrow_M320_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 320 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-350_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M350/v1/Radion_hh_narrow_M350_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 350 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-450_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M450/v1/Radion_hh_narrow_M450_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 450 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-550_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M550/v1/Radion_hh_narrow_M550_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 550 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-650_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M650/v1/Radion_hh_narrow_M650_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 650 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-1300_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1300/v1/Radion_hh_narrow_M1300_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 1300 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-1500_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1500/v1/Radion_hh_narrow_M1500_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 1500 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-1700_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1700/v1/Radion_hh_narrow_M1700_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 1700 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
+GluGluToRadionToHHTo4B_M-1900_narrow_TuneCP5_13TeV-madgraph-pythia8,400000,"import FWCore.ParameterSet.Config as cms
+
+externalLHEProducer = cms.EDProducer(""ExternalLHEProducer"",
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/madgraph/V5_2.4.2/Radion_hh_narrow_M1900/v1/Radion_hh_narrow_M1900_slc6_amd64_gcc481_CMSSW_7_1_30_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(True),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+#Link to datacards:
+#https://github.com/cms-sw/genproductions/tree/mg242legacy/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/exo_diboson/Spin-0/Radion_hh_narrow/Radion_hh_narrow_M900
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     processParameters = cms.vstring(
+                                                                                     '25:onMode = off',
+                                                                                     '25:onIfMatch = 5 -5',
+                                                                                     'ResonanceDecayFilter:filter = on'
+                                                                                     ),
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 'processParameters'
+                                                                                 )
+                                                     )
+                         )
+ProductionFilterSequence = cms.Sequence(generator)",GluGlu Radion production m_BG = 1900 GeV decaying into HH (m_H = 125 GeV) in the 4b final state,Madgraph_2.4.2  Pythia8,0,0.3,120
