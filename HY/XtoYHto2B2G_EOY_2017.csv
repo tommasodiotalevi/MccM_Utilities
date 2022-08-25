@@ -52,7 +52,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-240 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-240 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-240_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -106,7 +106,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-240 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-240 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-240_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -160,7 +160,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-240 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-240 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-240_MY-90_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -214,7 +214,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-240 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-240 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-240_MY-100_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -268,7 +268,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-240 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-240 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -322,7 +322,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -376,7 +376,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -430,7 +430,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-90_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -484,7 +484,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-100_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -538,7 +538,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-125_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -592,7 +592,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-125 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-125 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-280_MY-150_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -646,7 +646,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-280 MY-150 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-280 MY-150 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-300_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -700,7 +700,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-300 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-300 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-300_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -754,7 +754,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-300 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-300 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-300_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -808,7 +808,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-300 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-300 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -862,7 +862,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -916,7 +916,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -970,7 +970,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-90_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1024,7 +1024,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-100_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1078,7 +1078,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-125_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1132,7 +1132,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-125 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-125 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-150_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1186,7 +1186,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-150 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-150 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-170_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1240,7 +1240,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-170 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-170 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-320_MY-190_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1294,7 +1294,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-320 MY-190 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-320 MY-190 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1348,7 +1348,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1402,7 +1402,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1456,7 +1456,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-90_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1510,7 +1510,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-90 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-100_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1564,7 +1564,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-100 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-125_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1618,7 +1618,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-125 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-125 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-150_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1672,7 +1672,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-150 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-150 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-170_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1726,7 +1726,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-170 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-170 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-360_MY-190_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1780,7 +1780,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-360 MY-190 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-360 MY-190 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-400_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1834,7 +1834,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-400 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-400 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-400_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1888,7 +1888,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-400 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-400 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-400_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1942,7 +1942,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-400 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-400 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-500_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1996,7 +1996,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-500 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-500 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-500_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2050,7 +2050,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-500 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-500 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-500_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2104,7 +2104,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-500 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-500 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-600_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2158,7 +2158,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-600 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-600 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-600_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2212,7 +2212,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-600 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-600 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-600_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2266,7 +2266,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-600 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-600 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-700_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2320,7 +2320,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-700 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-700 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-700_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2374,7 +2374,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-700 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-700 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-700_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2428,7 +2428,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-700 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-700 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-800_MY-60_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2482,7 +2482,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-800 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-800 MY-60 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-800_MY-70_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2536,7 +2536,7 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-800 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-800 MY-70 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
 NMSSM_XToYHTo2B2G_MX-800_MY-80_TuneCP5_13TeV-madgraph-pythia8,400000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2590,4 +2590,4 @@ generator = cms.EDFilter(""Pythia8HadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XToYHTo2B2G MX-800 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,0.01,30
+",NMSSM XToYHTo2B2G MX-800 MY-80 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.4.2  Pythia8,0,30,815
