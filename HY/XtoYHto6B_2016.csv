@@ -8332,7 +8332,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/NMSSM_XYH_YToHH_MX_1200_MY_500
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/NMSSM_XToYH/NMSSM_XYH_YToHH_MX_1900_MY_250_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/NMSSM_XToYH/NMSSM_XYH_YToHH_MX_1900_MY_250_slc7_amd64_gcc10_CMSSW_12_4_8_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
