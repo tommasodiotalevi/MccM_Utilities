@@ -1,7 +1,7 @@
 import sys
 sys.path.append('/afs/cern.ch/cms/PPD/PdmV/tools/McM/')
 from rest import McM
-from json import dumps
+from json import dumps 
 
 mcm = McM(dev=False)
 
