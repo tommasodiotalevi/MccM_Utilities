@@ -1,0 +1,1601 @@
+prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
+B2G-RunIISummer20UL18wmLHEGEN-05152,TTZprimeToTT_M-500_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m500_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-500 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05153,TTZprimeToTT_M-500_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m500_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-500 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05154,TTZprimeToTT_M-500_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m500_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-500 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05155,TTZprimeToTT_M-500_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m500_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-500 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05156,TTZprimeToTT_M-750_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m750_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-750 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05157,TTZprimeToTT_M-750_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m750_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-750 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05158,TTZprimeToTT_M-750_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m750_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-750 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05159,TTZprimeToTT_M-750_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m750_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-750 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05160,TTZprimeToTT_M-1000_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1000_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1000 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05161,TTZprimeToTT_M-1000_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1000_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1000 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05162,TTZprimeToTT_M-1000_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1000_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1000 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05163,TTZprimeToTT_M-1000_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1000_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1000 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05164,TTZprimeToTT_M-1250_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1250_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1250 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05165,TTZprimeToTT_M-1250_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1250_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1250 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05166,TTZprimeToTT_M-1250_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1250_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1250 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05167,TTZprimeToTT_M-1250_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1250_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1250 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05168,TTZprimeToTT_M-1500_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1500_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1500 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05169,TTZprimeToTT_M-1500_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1500_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1500 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05170,TTZprimeToTT_M-1500_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1500_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1500 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05171,TTZprimeToTT_M-1500_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1500_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1500 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05172,TTZprimeToTT_M-1750_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1750_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1750 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05173,TTZprimeToTT_M-1750_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1750_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1750 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05174,TTZprimeToTT_M-1750_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1750_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1750 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05175,TTZprimeToTT_M-1750_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m1750_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-1750 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05176,TTZprimeToTT_M-2000_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2000_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2000 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05177,TTZprimeToTT_M-2000_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2000_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2000 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05178,TTZprimeToTT_M-2000_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2000_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2000 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05179,TTZprimeToTT_M-2000_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2000_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2000 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05180,TTZprimeToTT_M-2500_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2500_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2500 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05181,TTZprimeToTT_M-2500_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2500_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2500 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05182,TTZprimeToTT_M-2500_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2500_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2500 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05183,TTZprimeToTT_M-2500_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m2500_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-2500 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05184,TTZprimeToTT_M-3000_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m3000_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-3000 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05185,TTZprimeToTT_M-3000_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m3000_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-3000 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05186,TTZprimeToTT_M-3000_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m3000_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-3000 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05187,TTZprimeToTT_M-3000_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m3000_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-3000 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05188,TTZprimeToTT_M-4000_Width4_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m4000_relwidth4_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-4000 Width4 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05189,TTZprimeToTT_M-4000_Width10_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m4000_relwidth10_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-4000 Width10 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05190,TTZprimeToTT_M-4000_Width20_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m4000_relwidth20_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-4000 Width20 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
+B2G-RunIISummer20UL18wmLHEGEN-05191,TTZprimeToTT_M-4000_Width50_TuneCP5_13TeV-madgraph-pythia8,1000000,"
+import FWCore.ParameterSet.Config as cms
+
+# link to cards:
+# https://github.com/cms-sw/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/TopPhilicZp/ttZp
+
+externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/UL/13TeV/slc7_amd64_gcc700/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_m4000_relwidth50_madspin_tarball.tar.xz'),
+    nEvents = cms.untracked.uint32(5000),
+    numberOfParameters = cms.uint32(1),
+    outputFile = cms.string('cmsgrid_final.lhe'),
+    generateConcurrently = cms.untracked.bool(False),
+    scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
+)
+
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
+                         maxEventsToPrint = cms.untracked.int32(1),
+                         pythiaPylistVerbosity = cms.untracked.int32(1),
+                         filterEfficiency = cms.untracked.double(1.0),
+                         pythiaHepMCVerbosity = cms.untracked.bool(False),
+                         comEnergy = cms.double(13000.),
+                         PythiaParameters = cms.PSet(
+                                                     pythia8CommonSettingsBlock,
+                                                     pythia8CP5SettingsBlock,
+                                                     pythia8PSweightsSettingsBlock,
+                                                     parameterSets = cms.vstring('pythia8CommonSettings',
+                                                                                 'pythia8CP5Settings',
+                                                                                 'pythia8PSweightsSettings',
+                                                                                 )
+                                                     )
+                         )
+
+
+ProductionFilterSequence = cms.Sequence(generator)
+",TTZprimeToTT M-4000 Width50 TuneCP5 13TeV-madgraph-pythia8,Madgraph_2.6.5  Madspin Pythia8,0,0.01,30
