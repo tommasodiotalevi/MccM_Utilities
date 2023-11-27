@@ -1,5 +1,5 @@
-Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
-GluGlutoBulkGravitontoHHto6J0L_M-250_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
+B2G-Run3Summer22EEwmLHEGS-00379,GluGlutoBulkGravitontoHHto4Vto6J0L_M-250_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -57,8 +57,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-250 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-260_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-250 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00380,GluGlutoBulkGravitontoHHto4Vto6J0L_M-260_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -116,8 +116,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-260 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-270_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-260 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00381,GluGlutoBulkGravitontoHHto4Vto6J0L_M-270_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -175,8 +175,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-270 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-280_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-270 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00382,GluGlutoBulkGravitontoHHto4Vto6J0L_M-280_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -234,8 +234,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-280 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-300_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-280 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00383,GluGlutoBulkGravitontoHHto4Vto6J0L_M-300_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -293,8 +293,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-300 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-350_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-300 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00384,GluGlutoBulkGravitontoHHto4Vto6J0L_M-350_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -352,8 +352,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-350 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-450_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-350 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00385,GluGlutoBulkGravitontoHHto4Vto6J0L_M-450_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -411,8 +411,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-450 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-550_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-450 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00386,GluGlutoBulkGravitontoHHto4Vto6J0L_M-550_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -470,8 +470,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-550 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-600_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-550 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00387,GluGlutoBulkGravitontoHHto4Vto6J0L_M-600_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -529,8 +529,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-600 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-650_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-600 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00388,GluGlutoBulkGravitontoHHto4Vto6J0L_M-650_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -588,8 +588,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-650 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-700_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-650 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00389,GluGlutoBulkGravitontoHHto4Vto6J0L_M-700_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -647,8 +647,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-700 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-800_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-700 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00390,GluGlutoBulkGravitontoHHto4Vto6J0L_M-800_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -706,8 +706,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-800 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-1000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-800 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00391,GluGlutoBulkGravitontoHHto4Vto6J0L_M-1000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,312000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -765,8 +765,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-1000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-1200_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-1000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00392,GluGlutoBulkGravitontoHHto4Vto6J0L_M-1200_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -824,8 +824,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-1200 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-1400_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-1200 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00393,GluGlutoBulkGravitontoHHto4Vto6J0L_M-1400_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -883,8 +883,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-1400 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-1600_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-1400 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00394,GluGlutoBulkGravitontoHHto4Vto6J0L_M-1600_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -942,8 +942,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-1600 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-1800_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-1600 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00395,GluGlutoBulkGravitontoHHto4Vto6J0L_M-1800_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1001,8 +1001,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-1800 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-2000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-1800 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00396,GluGlutoBulkGravitontoHHto4Vto6J0L_M-2000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1060,8 +1060,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-2000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-2500_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-2000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00397,GluGlutoBulkGravitontoHHto4Vto6J0L_M-2500_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1119,8 +1119,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-2500 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-3000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-2500 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00398,GluGlutoBulkGravitontoHHto4Vto6J0L_M-3000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1178,8 +1178,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-3000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-4000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-3000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00399,GluGlutoBulkGravitontoHHto4Vto6J0L_M-4000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1237,8 +1237,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-4000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-GluGlutoBulkGravitontoHHto6J0L_M-5000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-4000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
+B2G-Run3Summer22EEwmLHEGS-00400,GluGlutoBulkGravitontoHHto4Vto6J0L_M-5000_narrow-AtLeast6J_TuneCP5_13p6TeV_madgraph-pythia8,78000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1296,4 +1296,4 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                          )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",GluGlutoBulkGravitontoHHto6J0L M-5000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",GluGlutoBulkGravitontoHHto4Vto6J0L M-5000 narrow-AtLeast6J TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1050
