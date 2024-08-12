@@ -6,7 +6,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -37,7 +37,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-500 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-500 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-500_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -45,7 +45,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -76,7 +76,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-500 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-500 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-500_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -84,7 +84,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -115,7 +115,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-500 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-500 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-500_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -123,7 +123,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m500_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -154,7 +154,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-500 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-500 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-750_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -162,7 +162,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -193,7 +193,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-750 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-750 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-750_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -201,7 +201,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -232,7 +232,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-750 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-750 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-750_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -240,7 +240,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -271,7 +271,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-750 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-750 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-750_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -279,7 +279,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m750_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -310,7 +310,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-750 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-750 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1000_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -318,7 +318,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -349,7 +349,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1000_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -357,7 +357,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -388,7 +388,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1000_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -396,7 +396,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -427,7 +427,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1000_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -435,7 +435,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1000_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -466,7 +466,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1250_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -474,7 +474,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -505,7 +505,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1250 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1250 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1250_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -513,7 +513,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -544,7 +544,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1250 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1250 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1250_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -552,7 +552,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -583,7 +583,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1250 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1250 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1250_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -591,7 +591,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1250_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -622,7 +622,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1250 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1250 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1500_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -630,7 +630,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -661,7 +661,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1500 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1500 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1500_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -669,7 +669,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -700,7 +700,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1500 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1500 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1500_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -708,7 +708,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -739,7 +739,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1500 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1500 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1500_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -747,7 +747,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1500_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -778,7 +778,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1500 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1500 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1750_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -786,7 +786,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -817,7 +817,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1750 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1750 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1750_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -825,7 +825,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -856,7 +856,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1750 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1750 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1750_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -864,7 +864,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -895,7 +895,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1750 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1750 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-1750_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -903,7 +903,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m1750_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -934,7 +934,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-1750 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-1750 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2000_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -942,7 +942,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -973,7 +973,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2000_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -981,7 +981,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1012,7 +1012,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2000_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1020,7 +1020,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1051,7 +1051,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2000_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1059,7 +1059,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2000_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1090,7 +1090,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2500_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1098,7 +1098,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1129,7 +1129,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2500 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2500 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2500_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1137,7 +1137,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1168,7 +1168,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2500 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2500 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2500_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1176,7 +1176,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1207,7 +1207,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2500 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2500 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-2500_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1215,7 +1215,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m2500_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1246,7 +1246,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-2500 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-2500 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-3000_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1254,7 +1254,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1285,7 +1285,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-3000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-3000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-3000_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1293,7 +1293,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1324,7 +1324,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-3000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-3000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-3000_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1332,7 +1332,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1363,7 +1363,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-3000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-3000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-3000_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1371,7 +1371,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m3000_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1402,7 +1402,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-3000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-3000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-4000_Width4_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1410,7 +1410,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth4_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth4_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1441,7 +1441,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-4000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-4000 Width4 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-4000_Width10_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1449,7 +1449,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth10_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth10_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1480,7 +1480,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-4000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-4000 Width10 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-4000_Width20_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1488,7 +1488,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth20_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth20_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1519,7 +1519,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-4000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-4000 Width20 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
 TTZprimetoTT_M-4000_Width50_TuneCP5_13p6TeV_madgraph-pythia8,780000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1527,7 +1527,7 @@ import FWCore.ParameterSet.Config as cms
 # https://github.com/gmilella12/genproductions/tree/master/bin/MadGraph5_aMCatNLO/cards/production/13p6TeV/TopPhilicZp/ttZp
 
 externalLHEProducer = cms.EDProducer('ExternalLHEProducer',
-    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el9_amd64_gcc11/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth50_tarball.tar.xz'),
+    args = cms.vstring('/cvmfs/cms.cern.ch/phys_generator/gridpacks/RunIII/13p6TeV/el8_amd64_gcc10/MadGraph5_aMCatNLO/TTZprimeToTT/TopPhilic_ttzp_13p6TeV_nodecay_m4000_relwidth50_tarball.tar.xz'),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
@@ -1558,4 +1558,4 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TTZprimetoTT M-4000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.6.5 Pythia8,0,0.01,30
+",TTZprimetoTT M-4000 Width50 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.18 Pythia8,0,0.01,30
