@@ -1,0 +1,1975 @@
+Dataset name,Events,fragment,notes,mcdbid,time,size
+GluGluSpin0ToZGToQQG_M-700_Width0p014_TuneCP5_13TeV-pythia8,900000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 700.0',
+    '25:mWidth = 0.098',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-700 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-700_Width5p6_TuneCP5_13TeV-pythia8,900000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 700.0',
+    '25:mWidth = 39.200',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-700 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-700_Width10p0_TuneCP5_13TeV-pythia8,900000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 700.0',
+    '25:mWidth = 70.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-700 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-800_Width0p014_TuneCP5_13TeV-pythia8,600000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 800.0',
+    '25:mWidth = 0.112',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-800 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-800_Width5p6_TuneCP5_13TeV-pythia8,600000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 800.0',
+    '25:mWidth = 44.800',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-800 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-800_Width10p0_TuneCP5_13TeV-pythia8,600000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 800.0',
+    '25:mWidth = 80.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-800 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-900_Width0p014_TuneCP5_13TeV-pythia8,450000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 900.0',
+    '25:mWidth = 0.126',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-900 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-900_Width5p6_TuneCP5_13TeV-pythia8,450000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 900.0',
+    '25:mWidth = 50.400',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-900 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-900_Width10p0_TuneCP5_13TeV-pythia8,450000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 900.0',
+    '25:mWidth = 90.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-900 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1000_Width0p014_TuneCP5_13TeV-pythia8,420000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1000.0',
+    '25:mWidth = 0.140',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1000 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1000_Width5p6_TuneCP5_13TeV-pythia8,420000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1000.0',
+    '25:mWidth = 56.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1000 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1000_Width10p0_TuneCP5_13TeV-pythia8,420000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1000.0',
+    '25:mWidth = 100.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1000 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1200_Width0p014_TuneCP5_13TeV-pythia8,390000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1200.0',
+    '25:mWidth = 0.168',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1200 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1200_Width5p6_TuneCP5_13TeV-pythia8,390000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1200.0',
+    '25:mWidth = 67.200',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1200 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1200_Width10p0_TuneCP5_13TeV-pythia8,390000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1200.0',
+    '25:mWidth = 120.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1200 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1400_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1400.0',
+    '25:mWidth = 0.196',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1400 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1400_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1400.0',
+    '25:mWidth = 78.400',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1400 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1400_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1400.0',
+    '25:mWidth = 140.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1400 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1600_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1600.0',
+    '25:mWidth = 0.224',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1600 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1600_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1600.0',
+    '25:mWidth = 89.600',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1600 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1600_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1600.0',
+    '25:mWidth = 160.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1600 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1800_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1800.0',
+    '25:mWidth = 0.252',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1800 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1800_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1800.0',
+    '25:mWidth = 100.800',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1800 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-1800_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 1800.0',
+    '25:mWidth = 180.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-1800 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2000_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2000.0',
+    '25:mWidth = 0.280',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2000 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2000_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2000.0',
+    '25:mWidth = 112.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2000 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2000_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2000.0',
+    '25:mWidth = 200.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2000 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2200_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2200.0',
+    '25:mWidth = 0.308',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2200 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2200_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2200.0',
+    '25:mWidth = 123.200',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2200 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2200_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2200.0',
+    '25:mWidth = 220.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2200 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2400_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2400.0',
+    '25:mWidth = 0.336',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2400 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2400_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2400.0',
+    '25:mWidth = 134.400',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2400 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2400_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2400.0',
+    '25:mWidth = 240.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2400 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2600_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2600.0',
+    '25:mWidth = 0.364',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2600 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2600_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2600.0',
+    '25:mWidth = 145.600',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2600 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-2600_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 2600.0',
+    '25:mWidth = 260.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-2600 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-3000_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 3000.0',
+    '25:mWidth = 0.420',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-3000 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-3000_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 3000.0',
+    '25:mWidth = 168.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-3000 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-3000_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 3000.0',
+    '25:mWidth = 300.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-3000 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-3500_Width0p014_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 3500.0',
+    '25:mWidth = 0.490',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-3500 Width0p014 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-3500_Width5p6_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 3500.0',
+    '25:mWidth = 196.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-3500 Width5p6 TuneCP5 13TeV-pythia8,0,0.01,30
+GluGluSpin0ToZGToQQG_M-3500_Width10p0_TuneCP5_13TeV-pythia8,360000,"
+import FWCore.ParameterSet.Config as cms
+
+from Configuration.Generator.Pythia8CommonSettings_cfi import *
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
+from Configuration.Generator.PSweightsPythia.PythiaPSweightsSettings_cfi import *
+
+generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
+      comEnergy = cms.double(13000.0),
+      crossSection = cms.untracked.double(1.095e-3),
+      filterEfficiency = cms.untracked.double(1),
+      maxEventsToPrint = cms.untracked.int32(0),
+      pythiaHepMCVerbosity = cms.untracked.bool(False),
+      pythiaPylistVerbosity = cms.untracked.int32(1),
+      PythiaParameters = cms.PSet(
+        pythia8CommonSettingsBlock,
+        pythia8CP5SettingsBlock,
+        pythia8PSweightsSettingsBlock,
+        processParameters = cms.vstring(
+                                                                                                                                                                                                   
+    'HiggsSM:gg2H = on',
+    '25:m0 = 3500.0',
+    '25:mWidth = 350.000',
+    '25:onMode = off',
+    '25:OnIfMatch = 23 22',
+    '25:doForceWidth = on',
+    'Higgs:clipWings = off',
+    
+    '23:onMode = off',
+    '23:OnIfMatch = 1 1',
+    '23:OnIfMatch = 2 2',
+    '23:OnIfMatch = 3 3',
+    '23:OnIfMatch = 4 4',
+    '23:OnIfMatch = 5 5',
+
+        ),
+        parameterSets = cms.vstring('pythia8CommonSettings',
+                                    'pythia8CP5Settings',
+                                    'pythia8PSweightsSettings',
+                                    'processParameters',
+                                    )
+      )
+)
+
+ProductionFilterSequence = cms.Sequence(generator)
+
+",GluGluSpin0ToZGToQQG M-3500 Width10p0 TuneCP5 13TeV-pythia8,0,0.01,30
