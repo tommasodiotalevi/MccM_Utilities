@@ -44,6 +44,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-700 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-700_Width5p6_TuneCP5_13TeV-pythia8,414000,"
@@ -91,6 +92,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-700 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-700_Width10p0_TuneCP5_13TeV-pythia8,414000,"
@@ -138,6 +140,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-700 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-800_Width0p014_TuneCP5_13TeV-pythia8,276000,"
@@ -185,6 +188,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-800 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-800_Width5p6_TuneCP5_13TeV-pythia8,276000,"
@@ -232,6 +236,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-800 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-800_Width10p0_TuneCP5_13TeV-pythia8,276000,"
@@ -279,6 +284,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-800 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-900_Width0p014_TuneCP5_13TeV-pythia8,207000,"
@@ -326,6 +332,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-900 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-900_Width5p6_TuneCP5_13TeV-pythia8,207000,"
@@ -373,6 +380,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-900 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-900_Width10p0_TuneCP5_13TeV-pythia8,207000,"
@@ -420,6 +428,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-900 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1000_Width0p014_TuneCP5_13TeV-pythia8,193200,"
@@ -467,6 +476,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1000 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1000_Width5p6_TuneCP5_13TeV-pythia8,193200,"
@@ -514,6 +524,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1000 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1000_Width10p0_TuneCP5_13TeV-pythia8,193200,"
@@ -561,6 +572,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1000 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1200_Width0p014_TuneCP5_13TeV-pythia8,179400,"
@@ -608,6 +620,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1200 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1200_Width5p6_TuneCP5_13TeV-pythia8,179400,"
@@ -655,6 +668,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1200 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1200_Width10p0_TuneCP5_13TeV-pythia8,179400,"
@@ -702,6 +716,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1200 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1400_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -749,6 +764,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1400 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1400_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -796,6 +812,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1400 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1400_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -843,6 +860,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1400 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1600_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -890,6 +908,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1600 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1600_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -937,6 +956,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1600 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1600_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -984,6 +1004,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1600 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1800_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1031,6 +1052,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1800 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1800_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1078,6 +1100,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1800 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-1800_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1125,6 +1148,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-1800 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2000_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1172,6 +1196,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2000 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2000_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1219,6 +1244,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2000 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2000_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1266,6 +1292,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2000 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2200_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1313,6 +1340,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2200 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2200_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1360,6 +1388,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2200 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2200_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1407,6 +1436,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2200 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2400_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1454,6 +1484,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2400 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2400_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1501,6 +1532,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2400 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2400_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1548,6 +1580,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2400 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2600_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1595,6 +1628,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2600 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2600_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1642,6 +1676,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2600 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-2600_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1689,6 +1724,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-2600 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-3000_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1736,6 +1772,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-3000 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-3000_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1783,6 +1820,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-3000 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-3000_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1830,6 +1868,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-3000 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-3500_Width0p014_TuneCP5_13TeV-pythia8,165600,"
@@ -1877,6 +1916,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-3500 Width0p014 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-3500_Width5p6_TuneCP5_13TeV-pythia8,165600,"
@@ -1924,6 +1964,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-3500 Width5p6 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
 GluGluSpin0ToZGToQQG_M-3500_Width10p0_TuneCP5_13TeV-pythia8,165600,"
@@ -1971,5 +2012,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentGeneratorFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
+#//
 
 ",GluGluSpin0ToZGToQQG M-3500 Width10p0 TuneCP5 13TeV-pythia8,Pythia8,0,0.01,30
