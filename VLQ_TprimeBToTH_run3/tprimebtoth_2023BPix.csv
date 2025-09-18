@@ -31,8 +31,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -45,7 +46,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -78,8 +79,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -92,7 +94,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -125,8 +127,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -139,7 +142,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -172,8 +175,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -186,7 +190,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -219,8 +223,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -233,7 +238,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -266,8 +271,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -280,7 +286,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -313,8 +319,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -327,7 +334,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -360,8 +367,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -374,7 +382,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -407,8 +415,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -421,7 +430,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -454,8 +463,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -468,7 +478,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -501,8 +511,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -515,7 +526,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -548,8 +559,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -562,7 +574,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-700 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -595,8 +607,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -609,7 +622,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -642,8 +655,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -656,7 +670,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -689,8 +703,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -703,7 +718,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -736,8 +751,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -750,7 +766,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -783,8 +799,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -797,7 +814,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -830,8 +847,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -844,7 +862,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -877,8 +895,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -891,7 +910,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -924,8 +943,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -938,7 +958,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -971,8 +991,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -985,7 +1006,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1018,8 +1039,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1032,7 +1054,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1065,8 +1087,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1079,7 +1102,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1112,8 +1135,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1126,7 +1150,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1159,8 +1183,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1173,7 +1198,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1206,8 +1231,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1220,7 +1246,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1253,8 +1279,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1267,7 +1294,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1300,8 +1327,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1314,7 +1342,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1347,8 +1375,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1361,7 +1390,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1394,8 +1423,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1408,7 +1438,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1441,8 +1471,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1455,7 +1486,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1488,8 +1519,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1502,7 +1534,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1535,8 +1567,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1549,7 +1582,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1582,8 +1615,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1596,7 +1630,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1629,8 +1663,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1643,7 +1678,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1676,8 +1711,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1690,7 +1726,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-900 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1723,8 +1759,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1737,7 +1774,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1770,8 +1807,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1784,7 +1822,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1817,8 +1855,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1831,7 +1870,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1864,8 +1903,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1878,7 +1918,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1911,8 +1951,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1925,7 +1966,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -1958,8 +1999,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1972,7 +2014,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2005,8 +2047,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2019,7 +2062,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2052,8 +2095,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2066,7 +2110,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2099,8 +2143,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2113,7 +2158,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2146,8 +2191,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2160,7 +2206,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2193,8 +2239,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2207,7 +2254,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2240,8 +2287,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2254,7 +2302,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2287,8 +2335,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2301,7 +2350,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2334,8 +2383,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2348,7 +2398,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2381,8 +2431,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2395,7 +2446,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2428,8 +2479,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2442,7 +2494,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2475,8 +2527,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2489,7 +2542,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2522,8 +2575,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2536,7 +2590,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2569,8 +2623,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2583,7 +2638,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2616,8 +2671,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2630,7 +2686,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2663,8 +2719,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2677,7 +2734,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2710,8 +2767,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2724,7 +2782,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2757,8 +2815,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2771,7 +2830,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2804,8 +2863,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2818,7 +2878,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1100 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2851,8 +2911,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2865,7 +2926,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2898,8 +2959,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2912,7 +2974,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2945,8 +3007,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2959,7 +3022,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -2992,8 +3055,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3006,7 +3070,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3039,8 +3103,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3053,7 +3118,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3086,8 +3151,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3100,7 +3166,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3133,8 +3199,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3147,7 +3214,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3180,8 +3247,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3194,7 +3262,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3227,8 +3295,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3241,7 +3310,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3274,8 +3343,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3288,7 +3358,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3321,8 +3391,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3335,7 +3406,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3368,8 +3439,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3382,7 +3454,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3415,8 +3487,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3429,7 +3502,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3462,8 +3535,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3476,7 +3550,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3509,8 +3583,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3523,7 +3598,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3556,8 +3631,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3570,7 +3646,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3603,8 +3679,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3617,7 +3694,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3650,8 +3727,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3664,7 +3742,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3697,8 +3775,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3711,7 +3790,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3744,8 +3823,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3758,7 +3838,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3791,8 +3871,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3805,7 +3886,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3838,8 +3919,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3852,7 +3934,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3885,8 +3967,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3899,7 +3982,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3932,8 +4015,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3946,7 +4030,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -3979,8 +4063,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3993,7 +4078,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4026,8 +4111,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4040,7 +4126,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4073,8 +4159,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4087,7 +4174,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4120,8 +4207,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4134,7 +4222,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4167,8 +4255,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4181,7 +4270,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4214,8 +4303,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4228,7 +4318,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4261,8 +4351,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4275,7 +4366,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4308,8 +4399,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4322,7 +4414,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4355,8 +4447,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4369,7 +4462,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4402,8 +4495,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4416,7 +4510,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4449,8 +4543,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4463,7 +4558,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4496,8 +4591,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4510,7 +4606,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4543,8 +4639,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4557,7 +4654,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4590,8 +4687,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4604,7 +4702,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4637,8 +4735,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4651,7 +4750,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4684,8 +4783,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4698,7 +4798,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4731,8 +4831,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4745,7 +4846,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4778,8 +4879,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4792,7 +4894,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4825,8 +4927,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4839,7 +4942,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4872,8 +4975,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4886,7 +4990,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4919,8 +5023,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4933,7 +5038,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -4966,8 +5071,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4980,7 +5086,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5013,8 +5119,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5027,7 +5134,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5060,8 +5167,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5074,7 +5182,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-1800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5107,8 +5215,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5121,7 +5230,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5154,8 +5263,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5168,7 +5278,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5201,8 +5311,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5215,7 +5326,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5248,8 +5359,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5262,7 +5374,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5295,8 +5407,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5309,7 +5422,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5342,8 +5455,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5356,7 +5470,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5389,8 +5503,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5403,7 +5518,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5436,8 +5551,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5450,7 +5566,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5483,8 +5599,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5497,7 +5614,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5530,8 +5647,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5544,7 +5662,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5577,8 +5695,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5591,7 +5710,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5624,8 +5743,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5638,7 +5758,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5671,8 +5791,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5685,7 +5806,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5718,8 +5839,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5732,7 +5854,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5765,8 +5887,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5779,7 +5902,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5812,8 +5935,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5826,7 +5950,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5859,8 +5983,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5873,7 +5998,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5906,8 +6031,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5920,7 +6046,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -5953,8 +6079,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5967,7 +6094,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6000,8 +6127,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6014,7 +6142,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6047,8 +6175,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6061,7 +6190,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6094,8 +6223,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6108,7 +6238,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6141,8 +6271,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6155,7 +6286,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6188,8 +6319,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6202,7 +6334,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6235,8 +6367,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6249,7 +6382,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6282,8 +6415,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6296,7 +6430,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6329,8 +6463,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6343,7 +6478,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6376,8 +6511,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6390,7 +6526,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6423,8 +6559,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6437,7 +6574,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6470,8 +6607,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6484,7 +6622,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6517,8 +6655,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6531,7 +6670,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6564,8 +6703,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6578,7 +6718,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6611,8 +6751,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6625,7 +6766,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6658,8 +6799,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6672,7 +6814,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6705,8 +6847,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6719,7 +6862,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6752,8 +6895,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6766,7 +6910,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6799,8 +6943,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6813,7 +6958,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6846,8 +6991,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6860,7 +7006,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6893,8 +7039,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6907,7 +7054,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6940,8 +7087,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6954,7 +7102,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -6987,8 +7135,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7001,7 +7150,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7034,8 +7183,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7048,7 +7198,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7081,8 +7231,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7095,7 +7246,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7128,8 +7279,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7142,7 +7294,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7175,8 +7327,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7189,7 +7342,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7222,8 +7375,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7236,7 +7390,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7269,8 +7423,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7283,7 +7438,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
 TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,132000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -7316,8 +7471,9 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-        '25:onMode = off',
-        '25:oneChannel = 1 1 100 22 22'
+                '25:onMode = off',
+                '25:oneChannel = 1 1 100 22 22',
+                'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7330,4 +7486,4 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850

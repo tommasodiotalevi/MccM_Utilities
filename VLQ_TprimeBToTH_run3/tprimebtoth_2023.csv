@@ -1,5 +1,5 @@
-prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
-B2G-Run3Summer23wmLHEGS-06027,TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
+TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -46,8 +46,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06028,TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -94,8 +94,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06029,TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -142,8 +142,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06030,TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -190,8 +190,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06031,TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -238,8 +238,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06032,TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -286,8 +286,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06033,TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -334,8 +334,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06034,TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -382,8 +382,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06035,TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -430,8 +430,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06036,TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -478,8 +478,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06037,TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -526,8 +526,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06038,TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-700_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -574,8 +574,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-700 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06039,TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-700 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -622,8 +622,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06040,TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -670,8 +670,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06041,TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -718,8 +718,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06042,TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -766,8 +766,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06043,TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -814,8 +814,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06044,TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -862,8 +862,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06045,TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -910,8 +910,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06046,TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -958,8 +958,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06047,TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1006,8 +1006,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06048,TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1054,8 +1054,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06049,TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1102,8 +1102,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06050,TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-800_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1150,8 +1150,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06051,TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1198,8 +1198,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06052,TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1246,8 +1246,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06053,TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1294,8 +1294,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06054,TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1342,8 +1342,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06055,TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1390,8 +1390,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06056,TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1438,8 +1438,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06057,TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1486,8 +1486,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06058,TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1534,8 +1534,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06059,TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1582,8 +1582,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06060,TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1630,8 +1630,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06061,TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1678,8 +1678,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06062,TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-900_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1726,8 +1726,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-900 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06063,TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-900 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1774,8 +1774,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06064,TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1822,8 +1822,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06065,TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1870,8 +1870,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06066,TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1918,8 +1918,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06067,TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1966,8 +1966,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06068,TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2014,8 +2014,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06069,TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2062,8 +2062,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06070,TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2110,8 +2110,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06071,TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2158,8 +2158,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06072,TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2206,8 +2206,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06073,TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2254,8 +2254,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06074,TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1000_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2302,8 +2302,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06075,TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2350,8 +2350,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06076,TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2398,8 +2398,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06077,TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2446,8 +2446,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06078,TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2494,8 +2494,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06079,TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2542,8 +2542,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06080,TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2590,8 +2590,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06081,TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2638,8 +2638,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06082,TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2686,8 +2686,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06083,TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2734,8 +2734,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06084,TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2782,8 +2782,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06085,TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2830,8 +2830,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06086,TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1100_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2878,8 +2878,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1100 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06087,TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1100 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2926,8 +2926,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06088,TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2974,8 +2974,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06089,TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3022,8 +3022,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06090,TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3070,8 +3070,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06091,TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3118,8 +3118,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06092,TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3166,8 +3166,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06093,TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3214,8 +3214,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06094,TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3262,8 +3262,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06095,TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3310,8 +3310,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06096,TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3358,8 +3358,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06097,TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3406,8 +3406,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06098,TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1200_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3454,8 +3454,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06099,TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3502,8 +3502,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06100,TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3550,8 +3550,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06101,TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3598,8 +3598,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06102,TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3646,8 +3646,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06103,TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3694,8 +3694,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06104,TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3742,8 +3742,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06105,TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3790,8 +3790,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06106,TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3838,8 +3838,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06107,TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3886,8 +3886,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06108,TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3934,8 +3934,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06109,TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3982,8 +3982,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06110,TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1400_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4030,8 +4030,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06111,TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4078,8 +4078,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06112,TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4126,8 +4126,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06113,TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4174,8 +4174,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06114,TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4222,8 +4222,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06115,TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4270,8 +4270,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06116,TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4318,8 +4318,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06117,TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4366,8 +4366,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06118,TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4414,8 +4414,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06119,TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4462,8 +4462,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06120,TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4510,8 +4510,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06121,TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4558,8 +4558,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06122,TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1600_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4606,8 +4606,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06123,TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4654,8 +4654,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06124,TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4702,8 +4702,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06125,TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4750,8 +4750,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06126,TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4798,8 +4798,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06127,TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4846,8 +4846,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06128,TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4894,8 +4894,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06129,TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4942,8 +4942,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06130,TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4990,8 +4990,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06131,TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5038,8 +5038,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06132,TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5086,8 +5086,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06133,TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5134,8 +5134,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06134,TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-1800_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5182,8 +5182,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-1800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06135,TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-1800 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5230,8 +5230,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06136,TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5278,8 +5278,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06137,TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5326,8 +5326,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06138,TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5374,8 +5374,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06139,TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5422,8 +5422,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06140,TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5470,8 +5470,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06141,TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5518,8 +5518,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06142,TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5566,8 +5566,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06143,TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5614,8 +5614,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06144,TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5662,8 +5662,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06145,TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5710,8 +5710,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06146,TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2000_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5758,8 +5758,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06147,TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2000 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5806,8 +5806,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06148,TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5854,8 +5854,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06149,TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5902,8 +5902,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06150,TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5950,8 +5950,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06151,TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5998,8 +5998,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06152,TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6046,8 +6046,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06153,TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6094,8 +6094,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06154,TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6142,8 +6142,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06155,TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6190,8 +6190,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06156,TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6238,8 +6238,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06157,TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6286,8 +6286,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06158,TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2200_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6334,8 +6334,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06159,TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2200 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6382,8 +6382,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06160,TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6430,8 +6430,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06161,TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6478,8 +6478,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06162,TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6526,8 +6526,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06163,TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6574,8 +6574,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06164,TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6622,8 +6622,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06165,TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6670,8 +6670,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06166,TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6718,8 +6718,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06167,TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6766,8 +6766,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06168,TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6814,8 +6814,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06169,TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6862,8 +6862,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06170,TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2400_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6910,8 +6910,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06171,TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2400 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6958,8 +6958,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06172,TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-5pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7006,8 +7006,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06173,TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-10pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7054,8 +7054,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06174,TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-20pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_sch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7102,8 +7102,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06175,TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-30pct sch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7150,8 +7150,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06176,TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-5pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7198,8 +7198,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06177,TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-10pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7246,8 +7246,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06178,TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-20pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_tch_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7294,8 +7294,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06179,TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-30pct tch TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-5pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7342,8 +7342,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06180,TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-5pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-10pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7390,8 +7390,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06181,TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-10pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-20pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7438,8 +7438,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
-B2G-Run3Summer23wmLHEGS-06182,TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
+",TprimeBtoTH Hto2G LH M-2600 decay-20pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
+TprimeBtoTH_Hto2G_LH_M-2600_decay-30pct_int_TuneCP5_13p6TeV_madgraph-pythia8,268000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7486,4 +7486,4 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 
 ProductionFilterSequence = cms.Sequence(generator)
-",TprimeBtoTH Hto2G LH M-2600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,0.01,30
+",TprimeBtoTH Hto2G LH M-2600 decay-30pct int TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,18,850
