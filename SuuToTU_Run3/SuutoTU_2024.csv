@@ -31,7 +31,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -77,7 +77,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -123,7 +123,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -169,7 +169,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -215,7 +215,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -261,7 +261,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -307,7 +307,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -353,7 +353,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
                                                      pythia8PSweightsSettingsBlock,
                                                      processParameters = cms.vstring(
                                                      
-                                                        TauDecays:externalMode=2
+                                                        'TauDecays:externalMode=2'
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
