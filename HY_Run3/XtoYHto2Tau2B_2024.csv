@@ -1,5 +1,5 @@
-Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,time,size
+B2G-RunIII2024Summer24wmLHEGS-02465,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -52,8 +52,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02466,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -106,8 +106,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02467,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -160,8 +160,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02468,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -214,8 +214,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02469,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -268,8 +268,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02470,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -322,8 +322,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-300-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02471,NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -376,8 +376,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-300-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-300-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02472,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -430,8 +430,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02473,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -484,8 +484,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02474,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -538,8 +538,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02475,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -592,8 +592,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02476,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -646,8 +646,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02477,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -700,8 +700,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02478,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -754,8 +754,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02479,NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -808,8 +808,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-400-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-400-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02480,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -862,8 +862,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02481,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -916,8 +916,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02482,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -970,8 +970,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02483,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1024,8 +1024,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02484,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1078,8 +1078,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02485,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1132,8 +1132,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02486,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1186,8 +1186,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02487,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1240,8 +1240,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02488,NMSSM-XtoYHto2Tau2B_Par-MX-500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1294,8 +1294,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02489,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1348,8 +1348,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02490,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1402,8 +1402,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02491,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1456,8 +1456,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02492,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1510,8 +1510,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02493,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1564,8 +1564,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02494,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1618,8 +1618,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02495,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1672,8 +1672,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02496,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1726,8 +1726,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02497,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1780,8 +1780,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-550-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02498,NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1834,8 +1834,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-550-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-550-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02499,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1888,8 +1888,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02500,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1942,8 +1942,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02501,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1996,8 +1996,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02502,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2050,8 +2050,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02503,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2104,8 +2104,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02504,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2158,8 +2158,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02505,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2212,8 +2212,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02506,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2266,8 +2266,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02507,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2320,8 +2320,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02508,NMSSM-XtoYHto2Tau2B_Par-MX-600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2374,8 +2374,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-600-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-600-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02509,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2428,8 +2428,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02510,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2482,8 +2482,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02511,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2536,8 +2536,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02512,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2590,8 +2590,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02513,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2644,8 +2644,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02514,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2698,8 +2698,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02515,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2752,8 +2752,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02516,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2806,8 +2806,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02517,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2860,8 +2860,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02518,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2914,8 +2914,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-650-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02519,NMSSM-XtoYHto2Tau2B_Par-MX-650-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2968,8 +2968,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-650-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-650-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02520,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3022,8 +3022,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02521,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3076,8 +3076,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02522,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3130,8 +3130,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02523,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3184,8 +3184,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02524,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3238,8 +3238,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02525,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3292,8 +3292,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02526,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3346,8 +3346,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02527,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3400,8 +3400,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02528,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3454,8 +3454,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02529,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3508,8 +3508,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-700-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02530,NMSSM-XtoYHto2Tau2B_Par-MX-700-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3562,8 +3562,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-700-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-700-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02531,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3616,8 +3616,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02532,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3670,8 +3670,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02533,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3724,8 +3724,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02534,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3778,8 +3778,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02535,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3832,8 +3832,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02536,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3886,8 +3886,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02537,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3940,8 +3940,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02538,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3994,8 +3994,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02539,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4048,8 +4048,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02540,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4102,8 +4102,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02541,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4156,8 +4156,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02542,NMSSM-XtoYHto2Tau2B_Par-MX-800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4210,8 +4210,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-800-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-800-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02543,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4264,8 +4264,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02544,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4318,8 +4318,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02545,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4372,8 +4372,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02546,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4426,8 +4426,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02547,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4480,8 +4480,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02548,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4534,8 +4534,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02549,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4588,8 +4588,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02550,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4642,8 +4642,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02551,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4696,8 +4696,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02552,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4750,8 +4750,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02553,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4804,8 +4804,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-900-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02554,NMSSM-XtoYHto2Tau2B_Par-MX-900-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4858,8 +4858,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-900-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-900-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02555,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4912,8 +4912,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02556,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4966,8 +4966,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02557,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5020,8 +5020,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02558,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5074,8 +5074,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02559,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5128,8 +5128,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02560,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5182,8 +5182,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02561,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5236,8 +5236,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02562,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5290,8 +5290,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02563,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5344,8 +5344,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02564,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5398,8 +5398,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02565,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5452,8 +5452,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02566,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5506,8 +5506,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02567,NMSSM-XtoYHto2Tau2B_Par-MX-1000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5560,8 +5560,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02568,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5614,8 +5614,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02569,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5668,8 +5668,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02570,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5722,8 +5722,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02571,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5776,8 +5776,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02572,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5830,8 +5830,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02573,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5884,8 +5884,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02574,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5938,8 +5938,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02575,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5992,8 +5992,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02576,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6046,8 +6046,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02577,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6100,8 +6100,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02578,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6154,8 +6154,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02579,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6208,8 +6208,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02580,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6262,8 +6262,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1200-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02581,NMSSM-XtoYHto2Tau2B_Par-MX-1200-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6316,8 +6316,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1200-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1200-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02582,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6370,8 +6370,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02583,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6424,8 +6424,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02584,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6478,8 +6478,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02585,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6532,8 +6532,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02586,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6586,8 +6586,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02587,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6640,8 +6640,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02588,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6694,8 +6694,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02589,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6748,8 +6748,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02590,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6802,8 +6802,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02591,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6856,8 +6856,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02592,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6910,8 +6910,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02593,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6964,8 +6964,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02594,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7018,8 +7018,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02595,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7072,8 +7072,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1400-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02596,NMSSM-XtoYHto2Tau2B_Par-MX-1400-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7126,8 +7126,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1400-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1400-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02597,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7180,8 +7180,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02598,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7234,8 +7234,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02599,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7288,8 +7288,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02600,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7342,8 +7342,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02601,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7396,8 +7396,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02602,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7450,8 +7450,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02603,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7504,8 +7504,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02604,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7558,8 +7558,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02605,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7612,8 +7612,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02606,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7666,8 +7666,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02607,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7720,8 +7720,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02608,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7774,8 +7774,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02609,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7828,8 +7828,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02610,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7882,8 +7882,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02611,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7936,8 +7936,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02612,NMSSM-XtoYHto2Tau2B_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7990,8 +7990,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1600-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1600-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,25,1400
+B2G-RunIII2024Summer24wmLHEGS-02613,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8044,8 +8044,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02614,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8098,8 +8098,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02615,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8152,8 +8152,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02616,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8206,8 +8206,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02617,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8260,8 +8260,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02618,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8314,8 +8314,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02619,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8368,8 +8368,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02620,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8422,8 +8422,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02621,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8476,8 +8476,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02622,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8530,8 +8530,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02623,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8584,8 +8584,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02624,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8638,8 +8638,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02625,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8692,8 +8692,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02626,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8746,8 +8746,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02627,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8800,8 +8800,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02628,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8854,8 +8854,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-1800-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02629,NMSSM-XtoYHto2Tau2B_Par-MX-1800-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8908,8 +8908,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-1800-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-1800-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02630,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8962,8 +8962,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02631,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9016,8 +9016,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02632,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9070,8 +9070,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02633,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9124,8 +9124,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02634,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9178,8 +9178,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02635,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9232,8 +9232,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02636,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9286,8 +9286,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02637,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9340,8 +9340,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02638,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9394,8 +9394,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02639,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9448,8 +9448,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02640,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9502,8 +9502,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02641,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9556,8 +9556,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02642,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9610,8 +9610,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02643,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9664,8 +9664,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02644,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9718,8 +9718,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02645,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9772,8 +9772,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02646,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9826,8 +9826,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02647,NMSSM-XtoYHto2Tau2B_Par-MX-2000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9880,8 +9880,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02648,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9934,8 +9934,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02649,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -9988,8 +9988,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02650,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10042,8 +10042,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02651,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10096,8 +10096,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02652,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10150,8 +10150,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02653,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10204,8 +10204,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02654,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10258,8 +10258,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02655,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10312,8 +10312,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02656,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10366,8 +10366,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02657,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10420,8 +10420,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02658,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10474,8 +10474,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02659,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10528,8 +10528,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02660,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10582,8 +10582,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02661,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10636,8 +10636,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02662,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10690,8 +10690,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02663,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10744,8 +10744,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02664,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10798,8 +10798,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02665,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10852,8 +10852,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-2500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02666,NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10906,8 +10906,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-2500-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-2500-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02667,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -10960,8 +10960,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02668,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11014,8 +11014,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02669,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11068,8 +11068,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02670,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11122,8 +11122,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02671,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11176,8 +11176,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02672,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11230,8 +11230,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02673,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11284,8 +11284,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02674,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11338,8 +11338,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02675,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11392,8 +11392,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02676,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11446,8 +11446,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02677,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11500,8 +11500,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02678,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11554,8 +11554,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02679,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11608,8 +11608,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02680,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11662,8 +11662,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02681,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11716,8 +11716,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02682,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11770,8 +11770,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02683,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11824,8 +11824,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02684,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11878,8 +11878,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02685,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11932,8 +11932,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02686,NMSSM-XtoYHto2Tau2B_Par-MX-3000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -11986,8 +11986,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3000-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3000-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02687,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12040,8 +12040,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02688,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12094,8 +12094,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02689,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12148,8 +12148,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02690,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12202,8 +12202,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02691,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12256,8 +12256,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02692,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12310,8 +12310,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02693,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12364,8 +12364,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02694,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12418,8 +12418,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02695,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12472,8 +12472,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02696,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12526,8 +12526,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02697,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12580,8 +12580,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02698,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12634,8 +12634,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02699,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12688,8 +12688,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02700,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12742,8 +12742,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02701,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12796,8 +12796,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02702,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12850,8 +12850,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02703,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12904,8 +12904,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02704,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -12958,8 +12958,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02705,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13012,8 +13012,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02706,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13066,8 +13066,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-3500-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02707,NMSSM-XtoYHto2Tau2B_Par-MX-3500-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13120,8 +13120,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-3500-MY-3000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-3500-MY-3000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02708,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-60_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13174,8 +13174,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-60 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02709,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-70_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13228,8 +13228,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-70 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02710,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-80_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13282,8 +13282,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-80 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02711,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-90_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13336,8 +13336,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-90 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02712,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-95_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13390,8 +13390,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-95 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02713,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13444,8 +13444,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-100 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02714,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-150_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13498,8 +13498,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-150 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02715,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13552,8 +13552,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02716,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13606,8 +13606,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02717,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13660,8 +13660,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02718,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13714,8 +13714,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02719,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13768,8 +13768,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02720,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13822,8 +13822,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02721,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13876,8 +13876,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02722,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13930,8 +13930,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02723,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -13984,8 +13984,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02724,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14038,8 +14038,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02725,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14092,8 +14092,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02726,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14146,8 +14146,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02727,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14200,8 +14200,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02728,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14254,8 +14254,8 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-3000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
-NMSSM_XtoYHto2Tau2B_Par-MX-4000-MY-3500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-3000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+B2G-RunIII2024Summer24wmLHEGS-02729,NMSSM-XtoYHto2Tau2B_Par-MX-4000-MY-3500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -14308,4 +14308,4 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 )
 
 ProductionFilterSequence = cms.Sequence(generator)
-",NMSSM XtoYHto2Tau2B Par-MX-4000-MY-3500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
+",NMSSM-XtoYHto2Tau2B Par-MX-4000-MY-3500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,38,1400
