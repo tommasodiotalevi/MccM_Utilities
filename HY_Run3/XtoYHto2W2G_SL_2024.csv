@@ -1,4 +1,4 @@
-Dataset name,Events,fragment,notes,Generator,mcdbid,tag,time,size
+Dataset name,Events,fragment,notes,Generator,mcdbid,mcm tag,time,size
 NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
@@ -48,6 +48,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -110,6 +111,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -172,6 +174,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -234,6 +237,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -296,6 +300,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -358,6 +363,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -420,6 +426,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -482,6 +489,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -544,6 +552,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -606,6 +615,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -668,6 +678,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -730,6 +741,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -792,6 +804,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -854,6 +867,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -916,6 +930,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -978,6 +993,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1040,6 +1056,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1102,6 +1119,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1164,6 +1182,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1226,6 +1245,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1288,6 +1308,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1350,6 +1371,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1412,6 +1434,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1474,6 +1497,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1536,6 +1560,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1598,6 +1623,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1660,6 +1686,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1722,6 +1749,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1784,6 +1812,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1846,6 +1875,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1908,6 +1938,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1970,6 +2001,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2032,6 +2064,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2094,6 +2127,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2156,6 +2190,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2218,6 +2253,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2280,6 +2316,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2342,6 +2379,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2404,6 +2442,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2466,6 +2505,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2528,6 +2568,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2590,6 +2631,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2652,6 +2694,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2714,6 +2757,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2776,6 +2820,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2838,6 +2883,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2900,6 +2946,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2962,6 +3009,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3024,6 +3072,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3086,6 +3135,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3148,6 +3198,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3210,6 +3261,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3272,6 +3324,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3334,6 +3387,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3396,6 +3450,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3458,6 +3513,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3520,6 +3576,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3582,6 +3639,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3644,6 +3702,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3706,6 +3765,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3768,6 +3828,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3830,6 +3891,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3892,6 +3954,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3954,6 +4017,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4016,6 +4080,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4078,6 +4143,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4140,6 +4206,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4202,6 +4269,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4264,6 +4332,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4326,6 +4395,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4388,6 +4458,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4450,6 +4521,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4512,6 +4584,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4574,6 +4647,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4636,6 +4710,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4698,6 +4773,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4760,6 +4836,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4822,6 +4899,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4884,6 +4962,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4946,6 +5025,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5008,6 +5088,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5070,6 +5151,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5132,6 +5214,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5194,6 +5277,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5256,6 +5340,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5318,6 +5403,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5380,6 +5466,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5442,6 +5529,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5504,6 +5592,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5566,6 +5655,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5628,6 +5718,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5690,6 +5781,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5752,6 +5844,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5814,6 +5907,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5876,6 +5970,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5938,6 +6033,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6000,6 +6096,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6062,6 +6159,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6124,6 +6222,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6186,6 +6285,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6248,6 +6348,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6310,6 +6411,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6372,6 +6474,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6434,6 +6537,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6496,6 +6600,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6558,6 +6663,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6620,6 +6726,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6682,6 +6789,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6744,6 +6852,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6806,6 +6915,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6868,6 +6978,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6930,6 +7041,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6992,6 +7104,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7054,6 +7167,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7116,6 +7230,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7178,6 +7293,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7240,6 +7356,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7302,6 +7419,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7364,6 +7482,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7426,6 +7545,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7488,6 +7608,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7550,6 +7671,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7612,6 +7734,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7674,6 +7797,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7736,6 +7860,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7798,6 +7923,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7860,6 +7986,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7922,6 +8049,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7984,6 +8112,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8046,6 +8175,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8108,6 +8238,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8170,6 +8301,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:udscbAsEquivalent  = on',  #on: treat udscb quarks as equivalent
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
+    'TauDecays:externalMode=2',
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
