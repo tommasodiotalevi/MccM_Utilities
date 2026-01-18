@@ -1,5 +1,5 @@
 prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,mcm tag,time,size
-B2G-RunIII2024Summer24wmLHEGS-00859,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03896,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -49,7 +49,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -63,7 +62,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-400-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00860,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03897,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -113,7 +112,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -127,7 +125,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00861,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03898,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -177,7 +175,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -191,7 +188,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00862,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-550-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03899,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-550-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -241,7 +238,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -255,7 +251,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-550-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00863,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-550-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03900,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-550-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -305,7 +301,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -319,7 +314,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-550-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00864,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-550-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03901,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-550-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -369,7 +364,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -383,7 +377,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-550-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00865,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03902,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -433,7 +427,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -447,7 +440,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-600-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00866,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03903,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -497,7 +490,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -511,7 +503,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-600-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00867,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03904,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -561,7 +553,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -575,7 +566,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-600-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00868,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03905,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -625,7 +616,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -639,7 +629,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-650-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00869,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03906,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -689,7 +679,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -703,7 +692,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-650-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00870,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03907,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -753,7 +742,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -767,7 +755,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-650-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00871,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03908,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-650-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -817,7 +805,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -831,7 +818,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-650-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00872,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03909,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -881,7 +868,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -895,7 +881,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-700-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00873,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03910,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -945,7 +931,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -959,7 +944,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-700-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00874,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03911,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1009,7 +994,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1023,7 +1007,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-700-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00875,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03912,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-700-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1073,7 +1057,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1087,7 +1070,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-700-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00876,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03913,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1137,7 +1120,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1151,7 +1133,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-800-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00877,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03914,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1201,7 +1183,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1215,7 +1196,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-800-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00878,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03915,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1265,7 +1246,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1279,7 +1259,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-800-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00879,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03916,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1329,7 +1309,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1343,7 +1322,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-800-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00880,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03917,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1393,7 +1372,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1407,7 +1385,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-800-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00881,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03918,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1457,7 +1435,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1471,7 +1448,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-900-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00882,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03919,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1521,7 +1498,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1535,7 +1511,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-900-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00883,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03920,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1585,7 +1561,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1599,7 +1574,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-900-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00884,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03921,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1649,7 +1624,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1663,7 +1637,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-900-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00885,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03922,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-900-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1713,7 +1687,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1727,7 +1700,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-900-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00886,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03923,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1777,7 +1750,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1791,7 +1763,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00887,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03924,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1841,7 +1813,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1855,7 +1826,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00888,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03925,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1905,7 +1876,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1919,7 +1889,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00889,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03926,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -1969,7 +1939,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -1983,7 +1952,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00890,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03927,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2033,7 +2002,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2047,7 +2015,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00891,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03928,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2097,7 +2065,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2111,7 +2078,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00892,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03929,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2161,7 +2128,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2175,7 +2141,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00893,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03930,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2225,7 +2191,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2239,7 +2204,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00894,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03931,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2289,7 +2254,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2303,7 +2267,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00895,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03932,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2353,7 +2317,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2367,7 +2330,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00896,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03933,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2417,7 +2380,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2431,7 +2393,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00897,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03934,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2481,7 +2443,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2495,7 +2456,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00898,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03935,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1200-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2545,7 +2506,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2559,7 +2519,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1200-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00899,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03936,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2609,7 +2569,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2623,7 +2582,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00900,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03937,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2673,7 +2632,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2687,7 +2645,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00901,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03938,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2737,7 +2695,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2751,7 +2708,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00902,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03939,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2801,7 +2758,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2815,7 +2771,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00903,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03940,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2865,7 +2821,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2879,7 +2834,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00904,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03941,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2929,7 +2884,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -2943,7 +2897,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00905,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03942,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -2993,7 +2947,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3007,7 +2960,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00906,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03943,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1400-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3057,7 +3010,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3071,7 +3023,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1400-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00907,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03944,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3121,7 +3073,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3135,7 +3086,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00908,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03945,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3185,7 +3136,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3199,7 +3149,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00909,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03946,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3249,7 +3199,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3263,7 +3212,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00910,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03947,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3313,7 +3262,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3327,7 +3275,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00911,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03948,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3377,7 +3325,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3391,7 +3338,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00912,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03949,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3441,7 +3388,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3455,7 +3401,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00913,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03950,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3505,7 +3451,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3519,7 +3464,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00914,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03951,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3569,7 +3514,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3583,7 +3527,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00915,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03952,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3633,7 +3577,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3647,7 +3590,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1600-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,24,900
-B2G-RunIII2024Summer24wmLHEGS-00916,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03953,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3697,7 +3640,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3711,7 +3653,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00917,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03954,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3761,7 +3703,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3775,7 +3716,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00918,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03955,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3825,7 +3766,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3839,7 +3779,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00919,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03956,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3889,7 +3829,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3903,7 +3842,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00920,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03957,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -3953,7 +3892,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -3967,7 +3905,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00921,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03958,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4017,7 +3955,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4031,7 +3968,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00922,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03959,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4081,7 +4018,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4095,7 +4031,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00923,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03960,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4145,7 +4081,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4159,7 +4094,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00924,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03961,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4209,7 +4144,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4223,7 +4157,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00925,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03962,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-1800-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4273,7 +4207,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4287,7 +4220,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-1800-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00926,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03963,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4337,7 +4270,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4351,7 +4283,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00927,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03964,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4401,7 +4333,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4415,7 +4346,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00928,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03965,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4465,7 +4396,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4479,7 +4409,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00929,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03966,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4529,7 +4459,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4543,7 +4472,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00930,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03967,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4593,7 +4522,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4607,7 +4535,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00931,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03968,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4657,7 +4585,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4671,7 +4598,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00932,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03969,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4721,7 +4648,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4735,7 +4661,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00933,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03970,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4785,7 +4711,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4799,7 +4724,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00934,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03971,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4849,7 +4774,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4863,7 +4787,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00935,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03972,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4913,7 +4837,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4927,7 +4850,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00936,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03973,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -4977,7 +4900,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -4991,7 +4913,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00937,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03974,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5041,7 +4963,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5055,7 +4976,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00938,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03975,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5105,7 +5026,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5119,7 +5039,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00939,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03976,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5169,7 +5089,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5183,7 +5102,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00940,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03977,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5233,7 +5152,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5247,7 +5165,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00941,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03978,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5297,7 +5215,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5311,7 +5228,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00942,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03979,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5361,7 +5278,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5375,7 +5291,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00943,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03980,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5425,7 +5341,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5439,7 +5354,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00944,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03981,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5489,7 +5404,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5503,7 +5417,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00945,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03982,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5553,7 +5467,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5567,7 +5480,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00946,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03983,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5617,7 +5530,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5631,7 +5543,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00947,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03984,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5681,7 +5593,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5695,7 +5606,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00948,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03985,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-2500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5745,7 +5656,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5759,7 +5669,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-2500-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00949,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03986,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5809,7 +5719,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5823,7 +5732,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00950,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03987,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5873,7 +5782,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5887,7 +5795,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00951,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03988,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -5937,7 +5845,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -5951,7 +5858,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00952,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03989,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6001,7 +5908,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6015,7 +5921,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00953,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03990,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6065,7 +5971,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6079,7 +5984,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00954,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03991,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6129,7 +6034,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6143,7 +6047,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00955,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03992,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6193,7 +6097,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6207,7 +6110,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00956,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03993,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6257,7 +6160,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6271,7 +6173,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00957,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03994,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6321,7 +6223,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6335,7 +6236,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00958,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03995,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6385,7 +6286,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6399,7 +6299,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00959,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03996,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6449,7 +6349,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6463,7 +6362,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00960,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03997,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6513,7 +6412,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6527,7 +6425,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00961,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03998,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6577,7 +6475,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6591,7 +6488,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3000-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00962,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-03999,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6641,7 +6538,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6655,7 +6551,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00963,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04000,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6705,7 +6601,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6719,7 +6614,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00964,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04001,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6769,7 +6664,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6783,7 +6677,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00965,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04002,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6833,7 +6727,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6847,7 +6740,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00966,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04003,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6897,7 +6790,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6911,7 +6803,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00967,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04004,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -6961,7 +6853,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -6975,7 +6866,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00968,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04005,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7025,7 +6916,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7039,7 +6929,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00969,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04006,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7089,7 +6979,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7103,7 +6992,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00970,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04007,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7153,7 +7042,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7167,7 +7055,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00971,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04008,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7217,7 +7105,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7231,7 +7118,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00972,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04009,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7281,7 +7168,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7295,7 +7181,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00973,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04010,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7345,7 +7231,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7359,7 +7244,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00974,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04011,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7409,7 +7294,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7423,7 +7307,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00975,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04012,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-3500-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7473,7 +7357,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7487,7 +7370,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-3500-MY-3000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00976,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04013,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7537,7 +7420,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7551,7 +7433,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00977,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04014,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7601,7 +7483,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7615,7 +7496,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-300 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00978,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04015,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7665,7 +7546,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7679,7 +7559,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00979,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04016,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7729,7 +7609,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7743,7 +7622,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-500 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00980,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04017,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7793,7 +7672,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7807,7 +7685,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00981,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04018,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7857,7 +7735,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7871,7 +7748,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00982,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04019,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7921,7 +7798,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7935,7 +7811,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-1000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00983,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04020,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -7985,7 +7861,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -7999,7 +7874,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-1200 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00984,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04021,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8049,7 +7924,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8063,7 +7937,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-1400 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00985,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04022,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8113,7 +7987,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8127,7 +8000,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-1600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00986,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04023,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8177,7 +8050,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8191,7 +8063,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-1800 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00987,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04024,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8241,7 +8113,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8255,7 +8126,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-2000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00988,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04025,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8305,7 +8176,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8319,7 +8189,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-2600 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00989,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04026,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-3000_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8369,7 +8239,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
@@ -8383,7 +8252,7 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
 
 ProductionFilterSequence = cms.Sequence(generator)
 ",NMSSM-XtoYHto2W2Gto2Q1L1Nu2G Par-MX-4000-MY-3000 TuneCP5 13p6TeV madgraph-pythia8,Madgraph_2.9.13  Pythia8,0,20260121_todiotal_XtoYHto2W2Gto2Q1L1Nu2G_RunIII2024Summer24,40,900
-B2G-RunIII2024Summer24wmLHEGS-00990,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-3500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
+B2G-RunIII2024Summer24wmLHEGS-04027,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-4000-MY-3500_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
 # link to cards:
@@ -8433,7 +8302,6 @@ generator = cms.EDFilter(""Pythia8ConcurrentHadronizerFilter"",
     'ResonanceDecayFilter:mothers = 35,25,24', #list of mothers not specified -> count all particles in hard process+resonance decays (better to avoid specifying mothers when including leptons from the lhe in counting, since intermediate resonances are not gauranteed to appear in general
     'ResonanceDecayFilter:daughters = 1,1,11,12,22,22', # qq,lnu,gg
     'TauDecays:externalMode=2',
-    testtest,
 
                                                      ),
                                                      parameterSets = cms.vstring('pythia8CommonSettings',
