@@ -1,4 +1,4 @@
-prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,mcm tag,time,size
+prepid,Dataset name,Events,fragment,notes,Generator,mcdbid,pippo,time,size
 B2G-RunIII2024Summer24wmLHEGS-03896,NMSSM-XtoYHto2W2Gto2Q1L1Nu2G_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8,100000,"
 import FWCore.ParameterSet.Config as cms
 
